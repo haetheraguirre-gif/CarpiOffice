@@ -1,0 +1,1256 @@
+.landing-page {
+    width: 100%;
+    height: 3036px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: Poppins;
+}
+.image-drag-in-to-fill {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 720px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: none;
+    flex-shrink: 0;
+}
+.image-3-icon {
+    position: absolute;
+    top: -390px;
+    left: 0px;
+    width: 1440px;
+    height: 1920px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.dimmer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 1440px;
+    height: 720px;
+    flex-shrink: 0;
+}
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 164px;
+    overflow: hidden;
+    display: none;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Inter;
+}
+.items {
+    position: absolute;
+    top: 56px;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+}
+.page {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.button {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 16px;
+}
+.site-name {
+    position: absolute;
+    top: 67px;
+    left: 80px;
+    line-height: 150%;
+    font-weight: 500;
+}
+.carrusel-inicio {
+    position: absolute;
+    top: 119px;
+    left: 0px;
+    border-radius: 8px;
+    width: 1440px;
+    height: 642px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    flex-shrink: 0;
+    font-size: 14px;
+    color: #0f5e4a;
+}
+.image-36-icon {
+    position: absolute;
+    top: -10px;
+    left: 366px;
+    width: 1111px;
+    height: 827px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.ellipse-parent {
+    position: absolute;
+    top: 599px;
+    left: 617px;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 0;
+}
+.frame-child {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #16896c;
+}
+.frame-item {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.carrusel-inicio-child {
+    position: absolute;
+    top: -302px;
+    left: -180.96px;
+    background-color: #f4f4f4;
+    width: 838px;
+    height: 973px;
+    transform: rotate(21.1deg);
+    transform-origin: 0 0;
+    flex-shrink: 0;
+}
+.bienvenido-a-carpioffice {
+    position: absolute;
+    top: 160px;
+    left: 71px;
+    font-weight: 600;
+    display: inline-block;
+    width: 224px;
+    flex-shrink: 0;
+}
+.mobiliario-que-transforma-container {
+    position: absolute;
+    top: 184px;
+    left: 71px;
+    font-size: 31.25px;
+    font-weight: 600;
+    display: inline-block;
+    width: 349px;
+    flex-shrink: 0;
+    color: #334149;
+}
+.transforma {
+    color: #0f5e4a;
+}
+.diseñamos-y-fabricamos {
+    position: absolute;
+    top: 303px;
+    left: 71px;
+    color: #000;
+    display: inline-block;
+    width: 391px;
+    flex-shrink: 0;
+}
+.component-1 {
+    position: absolute;
+    top: 404px;
+    left: 71px;
+    width: 154px;
+    height: 37px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: Inter;
+}
+.ver-catalogo-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: #013c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.ver-catalogo {
+    position: relative;
+    font-weight: 600;
+}
+.forward-icon {
+    position: absolute;
+    height: 75.68%;
+    width: 22.73%;
+    top: 13.51%;
+    right: -0.03%;
+    bottom: 10.81%;
+    left: 77.3%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.carrusel-silla-landing {
+    position: absolute;
+    top: 801px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    font-size: 15.25px;
+    font-family: Inter;
+}
+.sillas {
+    width: 1419.7px;
+    height: 437px;
+    position: relative;
+}
+.cards-wrapper {
+    position: absolute;
+    top: 90.75px;
+    left: 0px;
+    width: 1419.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7.6px;
+    box-sizing: border-box;
+}
+.cards {
+    align-self: stretch;
+    height: 331px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24.4px;
+}
+.cards-child {
+    height: 45.8px;
+    width: 45.8px;
+    position: relative;
+}
+.card {
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18.3px;
+}
+.image-icon {
+    width: 228.8px;
+    flex: 1;
+    position: relative;
+    border-radius: 6.1px;
+    max-height: 100%;
+    object-fit: cover;
+}
+.copy {
+    width: 228.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3.1px;
+}
+.silla-01 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.b {
+    align-self: stretch;
+    position: relative;
+    font-size: 19.07px;
+    font-family: Poppins;
+    color: #0f5e4a;
+}
+.card2 {
+    height: 331px;
+    width: 228.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18.3px;
+}
+.image-icon2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 6.1px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.copy2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3.1px;
+}
+.group-parent {
+    height: 45.8px;
+    width: 45.8px;
+    position: relative;
+    transform: rotate(-180deg);
+}
+ion-icon[name="caret-back-circle-outline"] {
+    font-size: 48px;    
+    color: #0b4f34;     
+}
+ion-icon[name="caret-back-circle-outline"]{
+    font-size: 48px;
+    color:#0b4f34 ;
+        background: transparent;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 45.8px;
+    height: 45.8px;
+    transform: rotate(180deg);
+}
+.back-icon {
+    position: absolute;
+    top: 0px;
+    left: 1.53px;
+    width: 42.7px;
+    height: 45.8px;
+    object-fit: cover;
+    transform: rotate(180deg);
+}
+.ergonomicas-y-confort {
+    position: absolute;
+    width: 487px;
+    top: 10.12%;
+    left: 2.74%;
+    font-family: Poppins;
+    display: inline-block;
+}
+.sillas-de-oficina {
+    position: absolute;
+    width: 362.9px;
+    top: 0%;
+    left: 2.69%;
+    font-size: 36.61px;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    display: inline-block;
+}
+.ver-mas {
+    position: absolute;
+    top: 823px;
+    left: 1274px;
+    width: auto;
+    min-width: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    gap: 8px; 
+}
+.ver-mas ion-icon[name="arrow-forward-outline"] {
+    font-size: 24px;   
+    color: #000000;    
+    vertical-align: middle; 
+}
+.ver-mas-texto {
+    position: relative;
+    flex-shrink: 0;
+}
+.right-icon {
+    height: 18px;
+    width: 39px;
+    position: relative;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.nuestros-resultados-landing {
+    position: absolute;
+    top: 1637px;
+    left: -1px;
+    width: 1440px;
+    height: 638px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 25px;
+    color: #02341c;
+}
+.nuestros-resultados-landing-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #f5f7f8;
+}
+.nuestros-resultados-parent {
+    position: absolute;
+    height: 10.34%;
+    width: 38.06%;
+    top: 8.15%;
+    right: 30.97%;
+    bottom: 81.5%;
+    left: 30.97%;
+}
+.nuestros-resultados {
+    position: absolute;
+    top: 0%;
+    left: 26.46%;
+    font-weight: 500;
+}
+.proyectos-que-demuestran {
+    position: absolute;
+    top: 57.58%;
+    left: 0%;
+    font-size: 18.46px;
+    font-weight: 500;
+    color: #334149;
+}
+.carrusel-resultados {
+    position: absolute;
+    height: 62.38%;
+    width: 94.1%;
+    top: 24.29%;
+    right: 2.99%;
+    bottom: 13.32%;
+    left: 2.92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22.9px;
+    text-align: left;
+    font-size: 28.62px;
+}
+.group-container {
+    height: 45.8px;
+    width: 45.8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 2px;
+    box-sizing: border-box;
+    position: relative;
+    isolation: isolate;
+    gap: 10px;
+    transform: rotate(-180deg);
+}
+ion-icon[name="arrow-forward-circle-outline"] {
+    font-size: 48px;
+    color: #b07843;    
+}
+ion-icon[name="arrow-back-circle-outline"] {
+    font-size: 48px;
+    color: #b07843;    
+}
+.group-icon {
+    height: 45.8px;
+    width: 45.8px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    transform: rotate(180deg);
+    z-index: 0;
+    flex-shrink: 0;
+}
+.back-icon2 {
+    height: 45.8px;
+    width: 42.7px;
+    position: relative;
+    object-fit: contain;
+    transform: rotate(180deg);
+    z-index: 1;
+    flex-shrink: 0;
+}
+.rectangle-parent {
+    height: 398.4px;
+    width: 381px;
+    position: relative;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 13.74px 13.74px 0px 0px;
+    width: 381px;
+    height: 329.7px;
+    object-fit: cover;
+}
+.oficina-wrapper {
+    position: absolute;
+    top: 329.71px;
+    left: 0px;
+    border-radius: 0px 0px 13.74px 13.74px;
+    background-color: #f5f7f8;
+    width: 381px;
+    height: 68.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9.2px 18.3px;
+    box-sizing: border-box;
+}
+.back-icon3 {
+    height: 45.8px;
+    width: 42.7px;
+    position: relative;
+    object-fit: cover;
+    transform: rotate(180deg);
+    z-index: 1;
+    flex-shrink: 0;
+}
+.agendamiento-de-citas-landin {
+    position: absolute;
+    top: 2275px;
+    left: 0px;
+    background-color: #fff;
+    width: 1439px;
+    height: 417px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 338px;
+    row-gap: 12px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    flex-shrink: 0;
+    font-size: 16px;
+    color: #7f5532;
+}
+.agenda-tu-cita {
+    height: 37px;
+    position: relative;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 470.5px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.agenda-una-asesora {
+    width: 554px;
+    position: relative;
+    color: #668391;
+    display: flex;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 4 / span 2;
+    height: 76.5px;
+}
+.barra-ventajas {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    grid-column: 1;
+    grid-row: 6 / span 2;
+    height: 76.5px;
+    color: #0f5e4a;
+}
+.ellipse-group {
+    height: 60px;
+    width: 183px;
+    position: relative;
+    flex-shrink: 0;
+}
+.group-child2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #f5f7f8;
+    border: 1px solid #024525;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+}
+.asesora-personalizada {
+    position: absolute;
+    top: 6px;
+    left: 69px;
+    display: flex;
+    align-items: center;
+    width: 114px;
+}
+.calendar-icon {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    width: 36px;
+    height: 35px;
+    object-fit: cover;
+}
+.group-div {
+    height: 60px;
+    width: 187px;
+    position: relative;
+    flex-shrink: 0;
+}
+.ellipse-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+}
+.clock-icon {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.respuesta-rapida {
+    position: absolute;
+    top: 5px;
+    left: 73px;
+    display: flex;
+    align-items: center;
+    width: 114px;
+}
+.people-icon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.hablemos-de-tu {
+    position: relative;
+    font-size: 39.06px;
+    line-height: 45px;
+    display: inline-block;
+    color: #02341c;
+    width: 470.5px;
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    height: 76.5px;
+}
+.agendamiento-de-citas {
+    width: 521px;
+    height: 165px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 88px 52px 40px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    grid-column: 2;
+    grid-row: 2 / span 4;
+    font-size: 20px;
+    color: #f5f7f8;
+}
+.ellipse-parent3 {
+    width: 414px;
+    height: 99.7px;
+    position: relative;
+    flex-shrink: 0;
+}
+.group-child5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 0.44);
+    width: 99px;
+    height: 98px;
+}
+.agenda-tu-cita2 {
+    position: absolute;
+    top: 1px;
+    left: 112px;
+    font-weight: 600;
+    display: inline-block;
+    width: 302px;
+}
+.elige-el-da {
+    position: absolute;
+    top: 31px;
+    left: 112px;
+    font-size: 12px;
+    display: inline-block;
+    width: 273px;
+}
+.botn-agendar-cita {
+    position: absolute;
+    top: 73.66px;
+    left: 112px;
+    border-radius: 18.1px;
+    background-color: #c5946b;
+    width: 160.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px 12.1px;
+    box-sizing: border-box;
+    font-size: 9.06px;
+    color: #fff;
+}
+.agendar-cita-comercial-parent {
+    display: flex;
+    align-items: center;
+    gap: 15.7px;
+}
+.frame-child4 {
+    height: 10.8px;
+    width: 10.8px;
+    position: relative;
+    object-fit: cover;
+}
+.calendar-icon2 {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.barra-de-navegacion-landing {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 119px;
+    flex-shrink: 0;
+    font-size: 14.5px;
+    font-family: Inter;
+}
+.barra-de-navegacion-landing-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.rectangle-parent2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 119px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #0f5e4a;
+    width: 1440px;
+    height: 23.4px;
+}
+.image-31-parent {
+    position: absolute;
+    top: 23px;
+    left: 0px;
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 29.7px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.image-31-icon {
+    height: 61.5px;
+    width: 134.2px;
+    position: relative;
+    object-fit: cover;
+}
+.items2 {
+    width: 282.6px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.inicio {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.proyectos {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+.iniciar-sesion-parent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 22.3px;
+    font-size: 11.66px;
+}
+.iniciar-sesion {
+    height: 19.3px;
+    width: 86.3px;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.account-male-icon {
+    height: 43.1px;
+    width: 43.1px;
+    position: relative;
+    object-fit: cover;
+}
+.diseño-calidad-funcionalid-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    gap: 429px;
+    font-size: 11.66px;
+    color: #fff;
+}
+.diseño-calidad {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.pie-de-pagina-landing {
+    position: absolute;
+    top: 2692px;
+    left: -2px;
+    width: 1440px;
+    height: 358px;
+    flex-shrink: 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: Inter;
+}
+.pie-de-pagina-landing-child {
+    position: absolute;
+    height: 96.09%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 3.91%;
+    left: 0%;
+    background-color: #013c2c;
+}
+.image-32-icon {
+    position: absolute;
+    width: 12.97%;
+    top: 225px;
+    right: 84.05%;
+    left: 2.97%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 50.6px;
+    object-fit: cover;
+}
+.carpioffice-todos-los {
+    position: absolute;
+    height: 13.41%;
+    width: 490.4px;
+    top: 86.59%;
+    left: 35.41%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.pie-de-pagina-landing-item {
+    position: absolute;
+    height: 0.28%;
+    width: 10.56%;
+    top: 20.53%;
+    right: 48.67%;
+    bottom: 79.19%;
+    left: 40.78%;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    transform: rotate(90.7deg);
+    transform-origin: 0 0;
+}
+.pie-de-pagina-landing-inner {
+    position: absolute;
+    height: 0.28%;
+    width: 10.56%;
+    top: 20.53%;
+    right: 33.6%;
+    bottom: 79.19%;
+    left: 55.85%;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    transform: rotate(90.7deg);
+    transform-origin: 0 0;
+}
+.line-div {
+    position: absolute;
+    height: 0.28%;
+    width: 10.56%;
+    top: 20.53%;
+    right: 14%;
+    bottom: 79.19%;
+    left: 75.44%;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    transform: rotate(90.7deg);
+    transform-origin: 0 0;
+}
+.soluciones-de-mobiliario {
+    position: absolute;
+    height: 21.23%;
+    width: 249.1px;
+    top: 32.96%;
+    left: 3.72%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.productos {
+    position: absolute;
+    height: 9.78%;
+    width: 107px;
+    top: 10.89%;
+    left: 27.97%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.silas-escritorios-mesas {
+    position: absolute;
+    height: 39.66%;
+    width: 192.6px;
+    top: 23.18%;
+    left: 27.43%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.nosotros-proyectos-servicios {
+    position: absolute;
+    height: 39.66%;
+    width: 201.4px;
+    top: 26.26%;
+    left: 45.41%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.politicas-de-envio {
+    position: absolute;
+    height: 39.66%;
+    width: 201.4px;
+    top: 27.93%;
+    left: 59.73%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.bogota-colombia {
+    position: absolute;
+    height: 39.66%;
+    width: 298.7px;
+    top: 31.28%;
+    left: 77.5%;
+    line-height: 150%;
+    font-weight: 600;
+    white-space: pre-wrap;
+    display: inline-block;
+}
+.empresa {
+    position: absolute;
+    height: 9.78%;
+    width: 107px;
+    top: 10.89%;
+    left: 45.47%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.ayuda {
+    position: absolute;
+    height: 9.78%;
+    width: 107px;
+    top: 10.89%;
+    left: 60.27%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.contactanos {
+    position: absolute;
+    height: 9.78%;
+    width: 107px;
+    top: 10.89%;
+    left: 78.65%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.pie-de-pagina-landing-child2 {
+    position: absolute;
+    height: 0.28%;
+    width: 94.33%;
+    top: 81.7%;
+    right: 2.94%;
+    bottom: 18.02%;
+    left: 2.74%;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+}
+.capioffice-oscuro-sin-fondo-3 {
+    position: absolute;
+    top: 10px;                  
+    left: 20px;                 
+    width: 300px;               
+    height: auto;              
+    object-fit: contain;        
+    z-index: 1000;              
+    overflow: visible;          
+}
+.soluciones-de-mobiliario2 {
+    position: absolute;
+    height: 21.23%;
+    width: 249.1px;
+    top: 23.74%;
+    left: 77.43%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.capioffice-oscuro-sin-fondo-4 {
+    position: absolute;
+    width: 21.67%;
+    top: 13px;
+    right: 76.25%;
+    left: 2.08%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 100px;
+    object-fit: cover;
+}
+.bogota-colombia-601-123-parent {
+    position: absolute;
+    height: 46.93%;
+    width: 20.95%;
+    top: 31.56%;
+    right: 76.06%;
+    bottom: 21.51%;
+    left: 2.99%;
+}
+.bogota-colombia2 {
+    position: absolute;
+    height: 84.52%;
+    width: 298.7px;
+    top: 15.48%;
+    left: 0.99%;
+    line-height: 150%;
+    font-weight: 600;
+    white-space: pre-wrap;
+    display: inline-block;
+}
+.maria-camila-lopez {
+    position: absolute;
+    height: 17.26%;
+    width: 160px;
+    top: 0%;
+    left: 0%;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+.menu-horizontal-hexagonal-la {
+    position: absolute;
+    top: 1257px;
+    left: -1px;
+    background-color: #0f5e4a;
+    width: 1440px;
+    height: 380px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #f5f7f8;
+}
+.catalogo2 {
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+}
+.catalogo-child {
+    position: absolute;
+    top: calc(50% - 110px);
+    left: calc(50% - 112px);
+    width: 224px;
+    height: 220px;
+}
+.saddle-stitched-booklet {
+    position: absolute;
+    top: calc(50% - 53.89px);
+    left: calc(50% - 42.92px);
+    width: 86.2px;
+    height: 84.7px;
+    object-fit: cover;
+}
+.catlogo {
+    position: absolute;
+    top: calc(50% + 26.71px);
+    left: calc(50% - 47.89px);
+    font-weight: 600;
+    display: inline-block;
+    width: 95.2px;
+    height: 30px;
+}
+.silla {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+}
+.office-chair-icon {
+    position: absolute;
+    top: calc(50% - 53.89px);
+    left: calc(50% - 43.06px);
+    width: 86.2px;
+    height: 84.7px;
+    object-fit: cover;
+}
+.sillas2 {
+    position: absolute;
+    top: calc(50% + 29.8px);
+    left: calc(50% - 27px);
+    font-weight: 600;
+    display: inline-block;
+    width: 54px;
+    height: 30px;
+}
+.escritorios {
+    position: relative;
+    grid-column: 3;
+    grid-row: 1;
+}
+.table-icon {
+    position: absolute;
+    top: calc(50% - 53.89px);
+    left: calc(50% - 40.32px);
+    width: 81.8px;
+    height: 84.7px;
+    object-fit: cover;
+}
+.escritorios2 {
+    position: absolute;
+    top: calc(50% + 26.39px);
+    left: calc(50% - 59.36px);
+    font-weight: 600;
+    display: inline-block;
+    width: 118.7px;
+    height: 33px;
+}
+.recepciones {
+    position: relative;
+    grid-column: 4;
+    grid-row: 1;
+}
+.armchair-icon {
+    position: absolute;
+    top: calc(50% - 53.89px);
+    left: calc(50% - 42.56px);
+    width: 86.2px;
+    height: 84.7px;
+    object-fit: cover;
+}
+.recepciones2 {
+    position: absolute;
+    top: calc(50% + 26.39px);
+    left: calc(50% - 72.8px);
+    font-weight: 600;
+    display: inline-block;
+    width: 145.6px;
+    height: 33px;
+}
+.lockers {
+    position: relative;
+    grid-column: 5;
+    grid-row: 1;
+}
+.buffet-icon {
+    position: absolute;
+    top: calc(50% - 53.89px);
+    left: calc(50% - 43.68px);
+    width: 86.2px;
+    height: 84.7px;
+    object-fit: cover;
+}
+.lockers2 {
+    position: absolute;
+    top: calc(50% + 30.79px);
+    left: calc(50% - 43.68px);
+    font-weight: 600;
+    display: inline-block;
+    width: 86.2px;
+    height: 33px;
+}
