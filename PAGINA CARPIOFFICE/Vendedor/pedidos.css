@@ -1,0 +1,728 @@
+.pedidos-panel-de-vendedor {
+  	width: 100%;
+  	height: 1078px;
+  	position: relative;
+  	background-color: #f8f9fb;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 1000px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.vendedor-barra-de-navegacin {
+  	height: 1199px;
+  	width: 254px;
+  	background-color: #112c67;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.espacio-de-trabajo {
+  	width: 1186px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	font-size: 15px;
+  	color: #92969f;
+  	font-family: 'Roboto Condensed';
+}
+.vendedor-barra-de-cuenta {
+  	align-self: stretch;
+  	height: 72px;
+  	background-color: rgba(148, 176, 236, 0.15);
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 8px 0px 324px;
+  	gap: 18px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 312px;
+  	border-radius: 24px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 8px;
+}
+.search-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.etiqueta9 {
+  	position: relative;
+  	line-height: 125%;
+}
+.bell-icon {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.cuenta-del-vendedor {
+  	width: 286px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 17.9px;
+  	box-sizing: border-box;
+  	gap: 8.5px;
+  	font-size: 15.23px;
+  	color: #252932;
+}
+.avatar-icon {
+  	height: 32.2px;
+  	width: 32.2px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.datos-de-cuenta {
+  	width: 175px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta10 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.etiqueta11 {
+  	position: relative;
+  	font-size: 11.85px;
+  	line-height: 125%;
+}
+.chevron-down-icon {
+  	height: 13.5px;
+  	width: 13.5px;
+  	position: relative;
+}
+.ruta-de-navegacin-parent {
+  	width: 1128px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+  	gap: 10px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.ruta-de-navegacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+}
+.inicio-parent {
+  	height: 18px;
+  	width: 134px;
+  	position: relative;
+}
+.inicio2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 125%;
+}
+.chevron-right-icon {
+  	position: absolute;
+  	top: 2.5px;
+  	left: 68px;
+  	width: 13px;
+  	height: 13px;
+}
+.seccin {
+  	position: absolute;
+  	top: 0px;
+  	left: 89px;
+  	line-height: 125%;
+}
+.resumen-de-clientes {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 28px;
+  	color: #252932;
+}
+.introduccin-wrapper {
+  	width: 1128px;
+  	height: 58px;
+  	position: relative;
+}
+.introduccin {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1128px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.presentacin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 34px;
+  	font-weight: 600;
+}
+.descripcin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.vendedornuevo-clientes {
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 16px;
+  	color: #fff;
+}
+.accin {
+  	height: 40px;
+  	width: 148px;
+  	border-radius: 5px;
+  	background-color: #193c76;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+  	box-sizing: border-box;
+}
+.primary-button {
+  	position: relative;
+  	font-weight: 500;
+  	white-space: pre-wrap;
+}
+.gestin-de-clientes {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 20px 30px;
+  	font-size: 14.36px;
+  	color: #252932;
+}
+.directorio-de-clientes {
+  	width: 1076px;
+  	border-radius: 9.57px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.cabecera-del-listado {
+  	align-self: stretch;
+  	height: 55.7px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 17.2px;
+  	gap: 20px;
+  	font-size: 18.18px;
+}
+.ttulo-del-listado {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.vistas-por-estado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 23px;
+  	font-size: 14.36px;
+  	color: #626873;
+}
+.vista {
+  	align-self: stretch;
+  	border-bottom: 1.9px solid #193c76;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6.7px;
+  	color: #193c76;
+}
+.cantidad {
+  	border-radius: 11.48px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 1.9px 6.7px;
+  	font-size: 11.48px;
+}
+.vista2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6.7px;
+}
+.cantidad2 {
+  	border-radius: 11.48px;
+  	background-color: #f8f9fb;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 1.9px 6.7px;
+  	font-size: 11.48px;
+}
+.bsqueda-y-filtros {
+  	align-self: stretch;
+  	height: 67.2px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 17.2px;
+  	box-sizing: border-box;
+  	gap: 11.5px;
+}
+.buscar-clientes {
+  	height: 36.5px;
+  	flex: 1;
+  	border-radius: 4.79px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 11.5px;
+  	gap: 8.6px;
+  	color: #92969f;
+}
+.filtro {
+  	height: 36.5px;
+  	width: 150.7px;
+  	border-radius: 4.79px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 11.5px;
+  	gap: 20px;
+}
+.chevron-down-icon2 {
+  	height: 13.4px;
+  	width: 13.4px;
+  	position: relative;
+}
+.filtro2 {
+  	height: 36.5px;
+  	width: 171.7px;
+  	border-radius: 4.79px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 11.5px;
+  	gap: 20px;
+}
+.orden-de-clientes {
+  	height: 36.5px;
+  	width: 175.5px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 7.7px;
+  	color: #626873;
+}
+.arrow-down-a-z-icon {
+  	height: 15.4px;
+  	width: 15.3px;
+  	position: relative;
+}
+.columnas {
+  	align-self: stretch;
+  	height: 38.4px;
+  	background-color: #f8f9fb;
+  	border-top: 1px solid #e4e7ec;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 17.2px;
+  	gap: 15.3px;
+  	font-size: 13.4px;
+  	color: #626873;
+}
+.nombre-de-columna {
+  	width: 251.8px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.nombre-de-columna2 {
+  	width: 162.2px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.nombre-de-columna3 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.nombre-de-columna4 {
+  	width: 95.4px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.nombre-de-columna5 {
+  	width: 85.9px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.nombre-de-columna6 {
+  	width: 72.5px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.listado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 15.31px;
+}
+.cliente2 {
+  	align-self: stretch;
+  	height: 63.4px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 17.2px;
+  	gap: 15.3px;
+}
+.empresa {
+  	width: 251.8px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3.8px;
+}
+.razn-social {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.identificacin {
+  	position: relative;
+  	font-size: 13.4px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.datos-del-cliente {
+  	width: 162.2px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3.8px;
+}
+.etiqueta22 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+}
+.etiqueta23 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13.4px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.datos-del-cliente2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3.8px;
+}
+.ciudad {
+  	width: 95.4px;
+  	position: relative;
+  	font-size: 14.36px;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado-del-cliente {
+  	width: 85.9px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	font-size: 12.44px;
+  	color: #39794c;
+}
+.estado {
+  	border-radius: 22.97px;
+  	background-color: #e0f3e6;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 4.8px 9.6px;
+  	gap: 5.7px;
+}
+.indicador-de-estado {
+  	height: 4.8px;
+  	width: 4.8px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #39794c;
+}
+.acciones-del-cliente {
+  	width: 72.5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 11.5px;
+}
+.ver-cliente {
+  	height: 28.8px;
+  	width: 28.6px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	cursor: pointer;
+}
+.eye-icon {
+  	height: 17.3px;
+  	width: 17.2px;
+  	position: relative;
+}
+.square-pen-icon {
+  	height: 16.3px;
+  	width: 16.2px;
+  	position: relative;
+}
+.editar-cliente5 {
+  	height: 28.8px;
+  	width: 28.6px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.square-pen-icon5 {
+  	height: 16.3px;
+  	width: 16.2px;
+  	position: relative;
+  	cursor: pointer;
+}
+.estado-del-cliente6 {
+  	width: 85.9px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	font-size: 12.44px;
+  	color: #626873;
+}
+.estado6 {
+  	border-radius: 22.97px;
+  	background-color: #eef0f3;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 4.8px 9.6px;
+  	gap: 5.7px;
+}
+.indicador-de-estado6 {
+  	height: 4.8px;
+  	width: 4.8px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #626873;
+}
+.paginacin {
+  	align-self: stretch;
+  	height: 63.4px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 17.2px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	color: #626873;
+}
+.resultados-por-pgina {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 15.3px;
+}
+.tamao-de-pgina {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6.7px;
+  	font-size: 13.4px;
+}
+.filtro3 {
+  	height: 36.5px;
+  	width: 55.3px;
+  	border-radius: 4.79px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 11.5px;
+  	gap: 11px;
+  	font-size: 14.36px;
+  	color: #252932;
+}
+.cambiar-pgina {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 5.7px;
+}
+.pgina-anterior {
+  	height: 30.7px;
+  	width: 30.5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.pgina {
+  	height: 30.7px;
+  	width: 30.5px;
+  	border-radius: 4.79px;
+  	background-color: #193c76;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	color: #fff;
+}
+.pgina2 {
+  	height: 30.7px;
+  	width: 30.5px;
+  	border-radius: 4.79px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+

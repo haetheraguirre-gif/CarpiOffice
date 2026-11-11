@@ -1,0 +1,423 @@
+.aadir-usuario {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f9f9;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 802px;
+  	text-align: left;
+  	font-size: 17px;
+  	color: #edf5ee;
+  	font-family: 'Roboto Condensed';
+}
+.men-lateral {
+  	align-self: stretch;
+  	width: 250px;
+  	background-color: #063d30;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 22px 20px 24px;
+  	box-sizing: border-box;
+  	min-height: 802px;
+}
+.carpioffice-icon {
+  	width: 175px;
+  	height: 51px;
+  	object-fit: cover;
+}
+.navegacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 1px;
+}
+.opcin-de-navegacin {
+  	align-self: stretch;
+  	height: 47px;
+  	border-radius: 5px;
+  	background-color: #063d30;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px 0px 9px;
+  	box-sizing: border-box;
+  	gap: 13px;
+}
+.icono-de-navegacin {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+  	line-height: 122%;
+}
+.opcin-de-navegacin2 {
+  	align-self: stretch;
+  	height: 47px;
+  	border-radius: 5px;
+  	background-color: #07563c;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px 0px 9px;
+  	box-sizing: border-box;
+  	gap: 13px;
+}
+.contenido-principal {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 14px;
+  	color: #8b908d;
+}
+.barra-de-herramientas {
+  	align-self: stretch;
+  	height: 72px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 0px 0px 30px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 234px;
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	width: 180px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 16px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta15 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta16 {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 122%;
+}
+.alta-de-usuario {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px 20px 24px 30px;
+  	gap: 18px;
+  	color: #16735b;
+}
+.encabezado-de-alta {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 12px;
+}
+.volver-a-usuarios {
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 7px;
+}
+.enlace-de-regreso {
+  	position: relative;
+}
+.separador {
+  	position: relative;
+  	color: #8b908d;
+}
+.pgina-actual {
+  	position: relative;
+  	color: #686d6b;
+}
+.ttulo-y-descripcin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+  	font-size: 24px;
+  	color: #242827;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.descripcin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 122%;
+}
+.formulario-de-usuario {
+  	align-self: stretch;
+  	border-radius: 9px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 18px;
+  	color: #242827;
+}
+.datos-personales {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 24px;
+  	gap: 24px;
+}
+.descripcin-de-seccin {
+  	width: 230px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 0px 20px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 6px;
+}
+.datos-del-usuario {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 15px;
+}
+.nombre-completo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.campo-de-formulario {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7px;
+}
+.span {
+  	color: #16735b;
+}
+.entrada-de-texto {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #c9d1cd;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 12px;
+  	color: #8b908d;
+}
+.ayuda-del-campo {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 130%;
+  	color: #686d6b;
+}
+.telfono {
+  	font-weight: 500;
+}
+.opcional {
+  	color: #686d6b;
+}
+.rol-y-rea {
+  	align-self: stretch;
+  	border-top: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 24px;
+  	gap: 24px;
+}
+.asignacin-de-acceso {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 12px;
+  	font-size: 15px;
+}
+.selector {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #c9d1cd;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 12px;
+  	gap: 20px;
+  	color: #8b908d;
+}
+.informacin-de-invitacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 0px 24px 24px;
+  	font-size: 15px;
+}
+.acceso-por-invitacin {
+  	align-self: stretch;
+  	border-radius: 5px;
+  	background-color: #edf5ee;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 12px;
+}
+.mail-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.detalles-de-acceso {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.ttulo-de-aviso {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 500;
+}
+.descripcin-del-aviso {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 140%;
+  	color: #686d6b;
+}
+.acciones-del-formulario {
+  	align-self: stretch;
+  	border-top: 1px solid #e5e8e7;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 18px 24px;
+  	gap: 20px;
+  	font-size: 13px;
+  	color: #16735b;
+}
+.acciones {
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 15px;
+  	color: #242827;
+}
+.cancelar {
+  	height: 40px;
+  	width: 94px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #c9d1cd;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 16px;
+}
+.primary-button {
+  	position: relative;
+  	font-weight: 500;
+}
+.enviar-invitacin {
+  	height: 40px;
+  	width: 150px;
+  	border-radius: 5px;
+  	background-color: #16735b;
+  	border: 1px solid #16735b;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 16px;
+  	color: #fff;
+}
+

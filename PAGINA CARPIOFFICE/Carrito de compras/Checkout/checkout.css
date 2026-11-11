@@ -1,0 +1,619 @@
+.checkout {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f5f7f8;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	min-height: 1800px;
+  	text-align: left;
+  	font-size: 14.5px;
+  	color: #000;
+  	font-family: Inter;
+}
+.barra-de-navegacin-landing {
+  	width: 1440px;
+  	height: 119px;
+  	position: relative;
+}
+.barra-de-navegacin-landing-inner {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #fff;
+  	overflow: hidden;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 119px;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #0f5e4a;
+  	width: 1440px;
+  	height: 23.4px;
+}
+.image-31-parent {
+  	position: absolute;
+  	top: 23px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 96px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 29.7px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.image-31-icon {
+  	height: 61.5px;
+  	width: 134.2px;
+  	position: relative;
+  	object-fit: cover;
+}
+.items {
+  	width: 282.6px;
+  	display: flex;
+  	align-items: center;
+  	gap: 28px;
+}
+.inicio {
+  	position: relative;
+  	line-height: 150%;
+  	font-weight: 600;
+  	cursor: pointer;
+  	flex-shrink: 0;
+}
+.proyectos {
+  	position: relative;
+  	line-height: 150%;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.iniciar-sesion-parent {
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	gap: 22.3px;
+  	font-size: 11.66px;
+}
+.iniciar-sesion {
+  	height: 19.3px;
+  	width: 86.3px;
+  	position: relative;
+  	line-height: 150%;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+  	cursor: pointer;
+}
+.account-male-icon {
+  	height: 43.1px;
+  	width: 43.1px;
+  	position: relative;
+  	object-fit: cover;
+}
+.diseo-calidad-funcionalid-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 40px;
+  	box-sizing: border-box;
+  	gap: 429px;
+  	font-size: 11.66px;
+  	color: #fff;
+}
+.diseo-calidad {
+  	position: relative;
+  	line-height: 150%;
+  	font-weight: 600;
+}
+.maincontent {
+  	align-self: stretch;
+  	border-radius: 15px;
+  	background-color: #f5f7f8;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px 80px 80px;
+  	gap: 48px;
+  	font-size: 14px;
+  	color: #668391;
+  	font-family: Poppins;
+}
+.breadcrumbs {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	padding: 20px 0px;
+  	gap: 8px;
+}
+.chevron-right {
+  	height: 12px;
+  	width: 12px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.chevron-right-icon {
+  	height: 10px;
+  	width: 6px;
+  	position: relative;
+}
+.carrito-de-compras {
+  	position: relative;
+}
+.finalizar-compra {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 39.06px;
+  	color: #02341c;
+}
+.workspace {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 48px;
+  	font-size: 20px;
+  	color: #334149;
+}
+.leftcolumn {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.shippingform {
+  	align-self: stretch;
+  	border-radius: 16px;
+  	background-color: #fff;
+  	border: 1px solid #d1dadf;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 32px;
+  	gap: 24px;
+}
+.frame {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+}
+.truck-icon {
+  	height: 24px;
+  	width: 24px;
+  	position: relative;
+}
+.datos-de-envo {
+  	position: relative;
+  	font-weight: 600;
+}
+.formgrid {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 16px;
+}
+.fieldcontainer {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.inputfield {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #d1dadf;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 16px;
+  	color: #668391;
+}
+.ej-juan-prez {
+  	flex: 1;
+  	position: relative;
+}
+.frame2 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.fieldcontainer3 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.frame5 {
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+}
+.cardbrands {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	font-size: 12px;
+  	color: #1a1f71;
+  	font-family: Inter;
+}
+.visa {
+  	border-radius: 4px;
+  	background-color: #f5f7f8;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 4px 8px;
+}
+.mastercard {
+  	border-radius: 4px;
+  	background-color: #f5f7f8;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 4px 8px;
+  	color: #eb001b;
+}
+.amex {
+  	border-radius: 4px;
+  	background-color: #f5f7f8;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 4px 8px;
+  	color: #0070cd;
+}
+.summarycard {
+  	width: 400px;
+  	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
+  	border-radius: 16px;
+  	background-color: #fff;
+  	border: 1px solid #d1dadf;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 32px;
+  	gap: 24px;
+}
+.divider {
+  	align-self: stretch;
+  	height: 1px;
+  	background-color: #d1dadf;
+  	display: flex;
+  	align-items: flex-start;
+}
+.summaryitem {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+.productimagecontainer-icon {
+  	height: 72px;
+  	width: 60px;
+  	border-radius: 6px;
+  	object-fit: cover;
+}
+.details {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.silla-ergonmica-pro {
+  	position: relative;
+  	font-weight: 600;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+}
+.cantidad-1 {
+  	position: relative;
+  	font-size: 14px;
+  	color: #668391;
+}
+.cop {
+  	position: relative;
+  	font-weight: 600;
+  	color: #0f5e4a;
+}
+.costs {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 16px;
+  	color: #668391;
+}
+.frame7 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.cop3 {
+  	position: relative;
+  	font-weight: 600;
+  	color: #334149;
+}
+.totalblock {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.cop5 {
+  	position: relative;
+  	font-size: 31.25px;
+  	font-weight: 600;
+  	color: #0f5e4a;
+}
+.pie-de-pagina-landing {
+  	width: 1440px;
+  	height: 358px;
+  	position: relative;
+  	font-size: 16px;
+  	color: #fff;
+}
+.pie-de-pagina-landing-child {
+  	position: absolute;
+  	height: 96.09%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 3.91%;
+  	left: 0%;
+  	background-color: #013c2c;
+}
+.image-32-icon {
+  	position: absolute;
+  	width: 12.97%;
+  	top: 225px;
+  	right: 84.05%;
+  	left: 2.97%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 50.6px;
+  	object-fit: cover;
+}
+.carpioffice-todos-los {
+  	position: absolute;
+  	height: 13.41%;
+  	width: 490.4px;
+  	top: 86.59%;
+  	left: 35.41%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.pie-de-pagina-landing-item {
+  	position: absolute;
+  	height: 0.28%;
+  	width: 10.56%;
+  	top: 20.53%;
+  	right: 48.67%;
+  	bottom: 79.19%;
+  	left: 40.78%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	transform:  rotate(90.7deg);
+  	transform-origin: 0 0;
+}
+.pie-de-pagina-landing-inner {
+  	position: absolute;
+  	height: 0.28%;
+  	width: 10.56%;
+  	top: 20.53%;
+  	right: 33.6%;
+  	bottom: 79.19%;
+  	left: 55.85%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	transform:  rotate(90.7deg);
+  	transform-origin: 0 0;
+}
+.line-div {
+  	position: absolute;
+  	height: 0.28%;
+  	width: 10.56%;
+  	top: 20.53%;
+  	right: 14%;
+  	bottom: 79.19%;
+  	left: 75.44%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	transform:  rotate(90.7deg);
+  	transform-origin: 0 0;
+}
+.soluciones-de-mobiliario {
+  	position: absolute;
+  	height: 21.23%;
+  	width: 249.1px;
+  	top: 32.96%;
+  	left: 3.72%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.productos {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 27.97%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.silas-escritorios-mesas {
+  	position: absolute;
+  	height: 39.66%;
+  	width: 192.6px;
+  	top: 23.18%;
+  	left: 27.43%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.nosotros-proyectos-servicios {
+  	position: absolute;
+  	height: 39.66%;
+  	width: 201.4px;
+  	top: 26.26%;
+  	left: 45.41%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.politicas-de-envio {
+  	position: absolute;
+  	height: 39.66%;
+  	width: 201.4px;
+  	top: 27.93%;
+  	left: 59.73%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.bogota-colombia {
+  	position: absolute;
+  	height: 39.66%;
+  	width: 298.7px;
+  	top: 31.28%;
+  	left: 77.5%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	white-space: pre-wrap;
+  	display: inline-block;
+}
+.empresa {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 45.47%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.ayuda {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 60.27%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.contactanos {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 78.65%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.pie-de-pagina-landing-child2 {
+  	position: absolute;
+  	height: 0.28%;
+  	width: 94.33%;
+  	top: 81.7%;
+  	right: 2.94%;
+  	bottom: 18.02%;
+  	left: 2.74%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+}
+.capioffice-oscuro-sin-fondo-3 {
+  	position: absolute;
+  	width: 18.99%;
+  	top: 39px;
+  	right: 77.3%;
+  	left: 3.72%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 87.6px;
+  	object-fit: cover;
+}
+.soluciones-de-mobiliario2 {
+  	position: absolute;
+  	height: 21.23%;
+  	width: 249.1px;
+  	top: 23.74%;
+  	left: 77.43%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.capioffice-oscuro-sin-fondo-4 {
+  	position: absolute;
+  	width: 21.67%;
+  	top: 13px;
+  	right: 76.25%;
+  	left: 2.08%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 100px;
+  	object-fit: cover;
+}
+.bogota-colombia-601-123-parent {
+  	position: absolute;
+  	height: 46.93%;
+  	width: 20.95%;
+  	top: 31.56%;
+  	right: 76.06%;
+  	bottom: 21.51%;
+  	left: 2.99%;
+}
+.bogota-colombia2 {
+  	position: absolute;
+  	height: 84.52%;
+  	width: 298.7px;
+  	top: 15.48%;
+  	left: 0.99%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	white-space: pre-wrap;
+  	display: inline-block;
+}
+.maria-camila-lopez {
+  	position: absolute;
+  	height: 17.26%;
+  	width: 160px;
+  	top: 0%;
+  	left: 0%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+

@@ -1,0 +1,849 @@
+.detalle-de-cliente-panel-de {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f9fb;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 1088px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.vendedor-barra-de-navegacin {
+  	height: 1199px;
+  	width: 254px;
+  	background-color: #112c67;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.espacio-de-trabajo {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 15px;
+  	color: #92969f;
+  	font-family: 'Roboto Condensed';
+}
+.vendedor-barra-de-cuenta {
+  	width: 1186px;
+  	height: 72px;
+  	background-color: rgba(148, 176, 236, 0.15);
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 8px 0px 324px;
+  	gap: 18px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 312px;
+  	border-radius: 24px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 8px;
+}
+.search-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.etiqueta9 {
+  	position: relative;
+  	line-height: 125%;
+}
+.bell-icon {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.cuenta-del-vendedor {
+  	width: 286px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 17.9px;
+  	box-sizing: border-box;
+  	gap: 8.5px;
+  	font-size: 15.23px;
+  	color: #252932;
+}
+.avatar-icon {
+  	height: 32.2px;
+  	width: 32.2px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.datos-de-cuenta {
+  	width: 175px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta10 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.etiqueta11 {
+  	position: relative;
+  	font-size: 11.85px;
+  	line-height: 125%;
+}
+.chevron-down-icon {
+  	height: 13.5px;
+  	width: 13.5px;
+  	position: relative;
+}
+.ficha-del-cliente {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px 30px 28px;
+  	gap: 18px;
+  	color: #193c76;
+}
+.resumen-del-cliente {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.regreso-al-listado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.arrow-left-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	cursor: pointer;
+}
+.volver-a-clientes {
+  	position: relative;
+  	cursor: pointer;
+}
+.ruta {
+  	position: relative;
+  	color: #626873;
+  	white-space: pre-wrap;
+}
+.presentacin {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 18px;
+  	font-size: 16px;
+  	color: #252932;
+}
+.identidad {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+  	font-size: 28px;
+}
+.razn-social-y-estado {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+}
+.razn-social {
+  	position: relative;
+  	line-height: 34px;
+  	font-weight: 600;
+}
+.estado {
+  	border-radius: 24px;
+  	background-color: #e0f3e6;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 5px 10px;
+  	font-size: 13px;
+  	color: #307c48;
+}
+.etiqueta-de-estado {
+  	position: relative;
+  	line-height: 120%;
+  	white-space: pre-wrap;
+}
+.texto {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 125%;
+  	color: #626873;
+  	white-space: pre-wrap;
+}
+.accin-de-gestin {
+  	height: 40px;
+  	width: 132px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+  	color: #193c76;
+}
+.primary-button {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.accin-de-gestin2 {
+  	height: 40px;
+  	width: 164px;
+  	border-radius: 5px;
+  	background-color: #193c76;
+  	border: 1px solid #193c76;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+  	cursor: pointer;
+  	color: #fff;
+}
+.primary-button2 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	white-space: pre-wrap;
+}
+.informacin-y-relacin-comerci {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 19px;
+  	color: #252932;
+}
+.informacin-del-cliente {
+  	width: 340px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.informacin-general {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.cabecera-de-informacin {
+  	align-self: stretch;
+  	height: 54px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+}
+.texto2 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.datos-de-la-empresa {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18px;
+  	gap: 15px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.dato-del-cliente {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.texto3 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+}
+.texto4 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	color: #252932;
+}
+.identificacin-y-ubicacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.dato-del-cliente2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.datos-de-contacto {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18px;
+  	gap: 16px;
+  	font-size: 16px;
+  	color: #193c76;
+}
+.persona-de-contacto {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 17px;
+}
+.iniciales-del-contacto {
+  	height: 42px;
+  	width: 42px;
+  	border-radius: 24px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.iniciales {
+  	position: relative;
+  	font-weight: 500;
+}
+.nombre-y-cargo {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	font-size: 16px;
+  	color: #252932;
+}
+.texto14 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.texto15 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.correo-electrnico {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.mail-icon {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+}
+.texto16 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+}
+.telfono {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	color: #252932;
+}
+.accin-de-gestin3 {
+  	width: 302px;
+  	height: 40px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+}
+.relacin-comercial {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 16px;
+}
+.indicadores-comerciales {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 14px;
+}
+.indicador-comercial {
+  	height: 112px;
+  	flex: 1;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 16px;
+  	gap: 8px;
+}
+.contenido-del-indicador {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+  	flex-shrink: 0;
+}
+.texto26 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 26px;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.smbolo-del-indicador {
+  	height: 36px;
+  	width: 36px;
+  	border-radius: 8px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.cabecera-del-historial {
+  	align-self: stretch;
+  	height: 54px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 18px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	font-size: 19px;
+}
+.moneda {
+  	position: relative;
+  	font-size: 14px;
+  	color: #626873;
+}
+.vistas-de-documentos {
+  	align-self: stretch;
+  	height: 43px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 0px 18px;
+  	gap: 24px;
+  	font-size: 15px;
+  	color: #626873;
+}
+.vista {
+  	align-self: stretch;
+  	border-bottom: 2px solid #193c76;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	color: #193c76;
+}
+.etiqueta12 {
+  	position: relative;
+  	font-weight: 600;
+}
+.vista2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+}
+.columnas {
+  	align-self: stretch;
+  	height: 36px;
+  	background-color: #f8f9fb;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 12px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.columna {
+  	flex: 1;
+  	position: relative;
+}
+.columna2 {
+  	width: 100px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.columna3 {
+  	width: 114px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.columna4 {
+  	width: 94px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.columna5 {
+  	width: 40px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.documento-comercial {
+  	align-self: stretch;
+  	height: 61px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 12px;
+  	color: #193c76;
+}
+.documento {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.fecha {
+  	width: 100px;
+  	position: relative;
+  	font-size: 15px;
+  	color: #252932;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.valor {
+  	width: 114px;
+  	position: relative;
+  	color: #252932;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado-del-documento {
+  	width: 94px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 13px;
+}
+.estado2 {
+  	border-radius: 24px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 5px 10px;
+}
+.etiqueta-de-estado2 {
+  	position: relative;
+  	line-height: 120%;
+}
+.ver-documento {
+  	width: 40px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.documento-comercial2 {
+  	align-self: stretch;
+  	height: 61px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 12px;
+}
+.documento2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+  	color: #193c76;
+}
+.fecha2 {
+  	width: 100px;
+  	position: relative;
+  	font-size: 15px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado-del-documento2 {
+  	width: 94px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 13px;
+  	color: #9a6b18;
+}
+.estado3 {
+  	border-radius: 24px;
+  	background-color: #fff4db;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 5px 10px;
+}
+.estado-del-documento3 {
+  	width: 94px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 13px;
+  	color: #307c48;
+}
+.estado4 {
+  	border-radius: 24px;
+  	background-color: #e0f3e6;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 5px 10px;
+}
+.resumen-del-historial {
+  	align-self: stretch;
+  	height: 44px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 18px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.accin {
+  	position: relative;
+  	font-size: 15px;
+  	color: #193c76;
+}
+.seguimiento-del-cliente {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 19px;
+}
+.cabecera-de-actividad {
+  	align-self: stretch;
+  	height: 58px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 18px;
+  	gap: 20px;
+}
+.accin-de-gestin4 {
+  	height: 40px;
+  	width: 166px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+  	font-size: 16px;
+  	color: #193c76;
+}
+.actividad-reciente {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px 18px;
+  	gap: 15px;
+  	font-size: 16px;
+}
+.actividad {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 12px;
+}
+.smbolo-de-actividad {
+  	height: 32px;
+  	width: 32px;
+  	border-radius: 24px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.file-text-icon2 {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.texto43 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 15px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.fecha-de-actividad {
+  	position: relative;
+  	font-size: 13px;
+  	color: #626873;
+}
+.prxima-visita {
+  	align-self: stretch;
+  	border-radius: 0px 0px 10px 10px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 13px 18px;
+  	gap: 12px;
+  	font-size: 15px;
+}
+.ver-visita {
+  	position: relative;
+  	color: #193c76;
+}
+

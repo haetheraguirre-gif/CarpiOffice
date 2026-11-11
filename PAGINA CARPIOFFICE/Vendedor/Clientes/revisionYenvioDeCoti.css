@@ -1,0 +1,766 @@
+.detalle-de-cliente-revisin {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f9fb;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 1408px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.vendedor-barra-de-navegacin {
+  	height: 1419px;
+  	width: 254px;
+  	background-color: #112c67;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.revisin-y-envo-empresa-del {
+  	width: 1188px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	min-height: 1408px;
+  	flex-shrink: 0;
+  	font-size: 15px;
+  	color: #92969f;
+  	font-family: 'Roboto Condensed';
+}
+.vendedor-barra-de-cuenta {
+  	width: 1186px;
+  	height: 72px;
+  	background-color: rgba(148, 176, 236, 0.15);
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 8px 0px 324px;
+  	gap: 18px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 312px;
+  	border-radius: 24px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 8px;
+}
+.search-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.cuenta-del-vendedor {
+  	width: 286px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 17.9px;
+  	box-sizing: border-box;
+  	gap: 8.5px;
+  	font-size: 15.23px;
+  	color: #252932;
+}
+.avatar-icon {
+  	height: 32.2px;
+  	width: 32.2px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.datos-de-cuenta {
+  	width: 175px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta11 {
+  	position: relative;
+  	font-size: 11.85px;
+  	line-height: 125%;
+}
+.chevron-down-icon {
+  	height: 13.5px;
+  	width: 13.5px;
+  	position: relative;
+}
+.revisin-de-cotizacin {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px 30px 28px;
+  	gap: 18px;
+  	color: #193c76;
+}
+.contexto-de-revisin {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.ruta-de-navegacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.volver-a-cotizacin {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.descripcin {
+  	position: relative;
+  	line-height: 125%;
+}
+.descripcin2 {
+  	position: relative;
+  	line-height: 125%;
+  	color: #626873;
+  	white-space: pre-wrap;
+}
+.presentacin-de-revisin {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+  	font-size: 28px;
+  	color: #252932;
+}
+.ttulo-y-descripcin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.ttulo-y-estado {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+}
+.ttulo {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.estado-de-envo {
+  	border-radius: 24px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 5px 10px;
+  	font-size: 13px;
+  	color: #193c76;
+}
+.descripcin4 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.editar-cotizacin {
+  	height: 40px;
+  	width: 140px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+  	font-size: 16px;
+  	color: #193c76;
+}
+.primary-button {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.cliente-de-la-propuesta {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 18px;
+  	gap: 24px;
+  	color: #626873;
+}
+.datos-del-cliente {
+  	width: 380px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+}
+.descripcin5 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+}
+.identidad-del-cliente {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	font-size: 19px;
+  	color: #252932;
+}
+.estado-del-cliente {
+  	border-radius: 24px;
+  	background-color: #e0f3e6;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 4px 9px;
+  	font-size: 13px;
+  	color: #307c48;
+}
+.descripcin7 {
+  	position: relative;
+  	line-height: 125%;
+  	white-space: pre-wrap;
+}
+.descripcin8 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	white-space: pre-wrap;
+}
+.descripcin9 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	color: #252932;
+}
+.contacto-de-la-propuesta {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+  	color: #252932;
+}
+.descripcin10 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.descripcin11 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.descripcin12 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	color: #193c76;
+}
+.responsable-comercial {
+  	width: 210px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+  	font-size: 14px;
+}
+.descripcin15 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	color: #252932;
+}
+.descripcin17 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 15px;
+  	line-height: 125%;
+  	color: #252932;
+}
+.propuesta-y-preparacin-de-env {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 19px;
+  	color: #252932;
+}
+.revisin-de-la-propuesta {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.detalles-de-cotizacin {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.cabecera-de-seccin {
+  	align-self: stretch;
+  	height: 54px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 18px;
+}
+.datos-de-la-propuesta {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18px;
+  	gap: 18px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.dato-de-cotizacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+}
+.fechas-y-moneda {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 14px;
+}
+.dato-de-cotizacin2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+}
+.productos-o-servicios {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 16px;
+}
+.cabecera-de-seccin2 {
+  	align-self: stretch;
+  	height: 54px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 18px;
+  	gap: 20px;
+  	font-size: 19px;
+}
+.informacin-complementaria {
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.columnas-del-detalle {
+  	align-self: stretch;
+  	height: 36px;
+  	background-color: #f8f9fb;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 12px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.descripcin26 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+}
+.descripcin27 {
+  	width: 42px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.descripcin28 {
+  	width: 104px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.descripcin29 {
+  	width: 40px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.descripcin30 {
+  	width: 100px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.producto-o-servicio {
+  	align-self: stretch;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 18px;
+  	gap: 12px;
+  	min-height: 84px;
+}
+.descripcin-del-artculo {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.descripcin31 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.descripcin32 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.descripcin34 {
+  	width: 104px;
+  	position: relative;
+  	font-size: 15px;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.descripcin35 {
+  	width: 40px;
+  	position: relative;
+  	font-size: 15px;
+  	line-height: 125%;
+  	color: #626873;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.descripcin36 {
+  	width: 100px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.informacin-de-precios {
+  	align-self: stretch;
+  	height: 40px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+  	color: #626873;
+}
+.documento-de-la-propuesta {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 18px;
+  	gap: 12px;
+  	font-size: 16px;
+}
+.file-text-icon {
+  	height: 24px;
+  	width: 24px;
+  	position: relative;
+}
+.informacin-del-documento {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.vista-previa {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 7px;
+  	font-size: 15px;
+  	color: #193c76;
+}
+.eye-icon {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+}
+.resumen-y-envo {
+  	width: 340px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.clculo-de-importes {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18px;
+  	gap: 16px;
+  	font-size: 15px;
+  	color: #626873;
+}
+.moneda-del-resumen {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 14px;
+}
+.importe {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.descripcin62 {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	color: #252932;
+}
+.descuento-comercial {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 10px;
+}
+.descripcin66 {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	color: #193c76;
+}
+.base-e-impuestos {
+  	align-self: stretch;
+  	border-top: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px 0px 0px;
+  	gap: 14px;
+}
+.total-de-la-propuesta {
+  	align-self: stretch;
+  	border-radius: 6px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 14px;
+  	gap: 6px;
+  	color: #193c76;
+}
+.total-en-pesos-container {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	font-size: 28px;
+}
+.span {
+  	font-weight: 600;
+  	line-height: 125%;
+}
+.cop {
+  	font-size: 14px;
+  	line-height: 125%;
+}
+.correo-de-la-cotizacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18px;
+  	gap: 14px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.valor-del-campo {
+  	align-self: stretch;
+  	border-radius: 5px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12px;
+  	min-height: 40px;
+  	font-size: 15px;
+  	color: #252932;
+}
+.contenido {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+}
+.enviar-cotizacin {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 5px;
+  	background-color: #193c76;
+  	border: 1px solid #193c76;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+  	font-size: 16px;
+  	color: #fff;
+}
+.volver-a-editar {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 16px;
+  	font-size: 16px;
+  	color: #193c76;
+}
+

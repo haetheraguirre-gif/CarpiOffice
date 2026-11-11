@@ -1,0 +1,876 @@
+.revisin-y-envo-de-cotizacin {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f9fb;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 1160px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.vendedor-barra-de-navegacin {
+  	height: 1262px;
+  	width: 254px;
+  	background-color: #112c67;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.espacio-de-trabajo {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 15px;
+  	color: #92969f;
+  	font-family: 'Roboto Condensed';
+}
+.vendedor-barra-de-cuenta {
+  	width: 1186px;
+  	height: 72px;
+  	background-color: rgba(148, 176, 236, 0.15);
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 8px 0px 324px;
+  	gap: 18px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 312px;
+  	border-radius: 24px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 8px;
+}
+.search-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.cuenta-del-vendedor {
+  	width: 286px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 17.9px;
+  	box-sizing: border-box;
+  	gap: 8.5px;
+  	font-size: 15.23px;
+  	color: #252932;
+}
+.avatar-icon {
+  	height: 32.2px;
+  	width: 32.2px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.datos-de-cuenta {
+  	width: 175px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta11 {
+  	position: relative;
+  	font-size: 11.85px;
+  	line-height: 125%;
+}
+.chevron-down-icon {
+  	height: 13.5px;
+  	width: 13.5px;
+  	position: relative;
+}
+.contenido-de-cotizacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px 30px 24px;
+  	gap: 20px;
+  	font-size: 14px;
+  	color: #626873;
+}
+.encabezado-de-revisin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.ruta-y-ttulo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 10px;
+}
+.ruta-de-navegacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.chevron-right-icon {
+  	height: 13px;
+  	width: 13px;
+  	position: relative;
+}
+.seccin {
+  	position: relative;
+  	line-height: 125%;
+}
+.cotizacin {
+  	position: relative;
+  	line-height: 125%;
+  	color: #252932;
+}
+.introduccin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 28px;
+  	color: #252932;
+}
+.ttulo-y-descripcin {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.ttulo {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.descripcin {
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.estado-de-cotizacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	font-size: 15px;
+  	color: #626873;
+}
+.estado {
+  	border-radius: 24px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 5px 12px;
+  	font-size: 13px;
+  	color: #315f96;
+}
+.aviso-de-creacin {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 13px 16px;
+  	gap: 10px;
+  	font-size: 15px;
+  	color: #193c76;
+}
+.circle-check-icon {
+  	height: 20px;
+  	width: 20px;
+  	position: relative;
+}
+.mensaje-de-revisin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.estado-de-creacin {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.aclaracin-de-envo {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.documento-y-envo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 20px;
+  	font-size: 18px;
+  	color: #252932;
+}
+.vista-previa-del-documento {
+  	flex: 1;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.herramientas-del-documento {
+  	align-self: stretch;
+  	border-bottom: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 12px 20px;
+  	gap: 20px;
+}
+.identificacin-del-pdf {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.ttulo-de-vista-previa {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2px;
+}
+.nombre-del-archivo {
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.descargar-pdf {
+  	height: 40px;
+  	width: 144px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 12px;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #193c76;
+}
+.primary-button {
+  	flex: 1;
+  	position: relative;
+  	font-weight: 500;
+}
+.rea-de-previsualizacin {
+  	align-self: stretch;
+  	background-color: #eff1f5;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 20px;
+  	gap: 14px;
+  	font-size: 12px;
+  	color: #626873;
+}
+.documento-de-cotizacin {
+  	align-self: stretch;
+  	box-shadow: 0px 2px 8px rgba(25, 60, 118, 0.06);
+  	background-color: #fff;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 30px;
+  	box-sizing: border-box;
+  	gap: 22px;
+  	min-height: 780px;
+}
+.encabezado-del-documento {
+  	align-self: stretch;
+  	border-bottom: 2px solid #193c76;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 0px 20px;
+  	gap: 20px;
+  	font-size: 24px;
+  	color: #193c76;
+  	font-family: Roboto;
+}
+.smbolo-carpioffice-icon {
+  	height: 34px;
+  	width: 25px;
+  	position: relative;
+}
+.nmero-del-documento {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 4px;
+  	font-size: 13px;
+  	color: #626873;
+  	font-family: 'Roboto Condensed';
+}
+.nmero {
+  	position: relative;
+  	font-size: 24px;
+  	line-height: 125%;
+  	font-weight: 600;
+  	color: #193c76;
+}
+.cliente-y-fechas {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 26px;
+  	font-size: 13px;
+}
+.informacin-del-cliente {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.etiqueta-de-cliente {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 125%;
+}
+.razn-social {
+  	position: relative;
+  	font-size: 18px;
+  	line-height: 125%;
+  	font-weight: 500;
+  	color: #252932;
+}
+.vigencia {
+  	width: 192px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 9px;
+}
+.importe-del-documento {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.importe {
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+  	color: #252932;
+}
+.moneda {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	text-align: right;
+}
+.proyecto {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.nombre-del-proyecto {
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 125%;
+  	font-weight: 500;
+  	color: #252932;
+}
+.productos-cotizados {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: right;
+  	font-size: 14px;
+  	color: #252932;
+}
+.cabecera-de-productos {
+  	align-self: stretch;
+  	height: 32px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	font-size: 12px;
+  	color: #193c76;
+}
+.columna-de-producto {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+  	text-align: left;
+}
+.columna-de-cantidad {
+  	width: 36px;
+  	position: relative;
+  	line-height: 125%;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.columna-de-precio {
+  	width: 88px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.columna-de-importe {
+  	width: 92px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.producto-cotizado {
+  	align-self: stretch;
+  	height: 68px;
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px;
+  	gap: 12px;
+}
+.descripcin-del-producto {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	text-align: left;
+}
+.nombre-del-producto {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.especificaciones {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.importe3 {
+  	width: 92px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.condiciones-e-importes {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 30px;
+}
+.condiciones-comerciales {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 14px;
+}
+.ttulo-de-condiciones {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	font-weight: 500;
+  	color: #193c76;
+}
+.etiqueta12 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+}
+.valor {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+  	font-weight: 500;
+  	color: #252932;
+}
+.totales-del-documento {
+  	width: 264px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 9px;
+  	font-size: 13px;
+}
+.importe-del-documento7 {
+  	align-self: stretch;
+  	border-radius: 4px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 10px;
+  	gap: 20px;
+  	font-size: 16px;
+  	color: #193c76;
+}
+.importe9 {
+  	position: relative;
+  	font-size: 20px;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.detalle-de-moneda {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 125%;
+  	text-align: right;
+}
+.observaciones {
+  	align-self: stretch;
+  	border-top: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px 0px 0px;
+  	gap: 7px;
+  	font-size: 14px;
+  	color: #252932;
+}
+.contenido-de-observaciones {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.pie-del-documento {
+  	align-self: stretch;
+  	border-top: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	padding: 12px 0px 0px;
+  	gap: 20px;
+}
+.paginacin-de-vista {
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 125%;
+}
+.resumen-y-envo {
+  	width: 320px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 15px;
+}
+.resumen-de-cotizacin {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px;
+  	gap: 16px;
+}
+.ttulo-de-resumen {
+  	position: relative;
+  	font-size: 18px;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.desglose-de-importes {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 12px;
+  	color: #626873;
+}
+.importe10 {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	color: #252932;
+}
+.total-de-cotizacin {
+  	align-self: stretch;
+  	border-top: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px 0px 0px;
+  	gap: 5px;
+  	font-size: 16px;
+}
+.importe-total {
+  	position: relative;
+  	font-size: 30px;
+  	line-height: 125%;
+  	font-weight: 600;
+  	color: #193c76;
+}
+.anticipo {
+  	align-self: stretch;
+  	border-radius: 5px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 12px;
+  	color: #193c76;
+}
+.importe-del-resumen5 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.importe14 {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.enviar-al-cliente {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px;
+  	gap: 16px;
+  	font-size: 13px;
+}
+.destinatario {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+  	color: #626873;
+}
+.cliente2 {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	font-weight: 500;
+  	color: #252932;
+}
+.persona-de-contacto {
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 125%;
+}
+.correo-electrnico {
+  	position: relative;
+  	font-size: 15px;
+  	line-height: 125%;
+  	color: #193c76;
+}
+.documento-adjunto {
+  	align-self: stretch;
+  	border-radius: 5px;
+  	background-color: #f8f9fb;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px;
+  	gap: 10px;
+  	font-size: 14px;
+}
+.descripcin-del-archivo {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.enviar-al-cliente2 {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 5px;
+  	background-color: #193c76;
+  	border: 1px solid #193c76;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 12px;
+  	cursor: pointer;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #fff;
+}
+.aclaracin-del-envo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+  	color: #626873;
+}
+.ajustar-cotizacin {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px;
+  	gap: 12px;
+  	font-size: 16px;
+}
+.editar-cotizacin {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 12px;
+  	text-align: center;
+  	color: #193c76;
+}
+.volver-al-listado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 2px 0px;
+  	gap: 8px;
+  	color: #193c76;
+}
+.arrow-left-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+

@@ -1,0 +1,249 @@
+.carpioffice-sign-in {
+  	width: 100%;
+  	height: 794px;
+  	position: relative;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 16px 37px;
+  	box-sizing: border-box;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #fff;
+  	font-family: Poppins;
+}
+.atras {
+  	height: 42px;
+  	border-radius: 100px;
+  	background-color: rgba(255, 255, 255, 0.2);
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 16px;
+  	box-sizing: border-box;
+  	min-width: 42px;
+}
+.pgina {
+  	position: relative;
+  	font-weight: 500;
+}
+.sign-in-content {
+  	align-self: stretch;
+  	flex: 1;
+  	overflow: hidden;
+  	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-template-rows: 1fr;
+  	font-size: 12px;
+  	color: #0f5e4a;
+}
+.form-area {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 48px 74px;
+  	gap: 0px;
+  	grid-column: 1;
+  	grid-row: 1;
+}
+.sign-in-card {
+  	width: 456px;
+  	border-radius: 24px;
+  	background-color: rgba(255, 255, 255, 0.8);
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: center;
+  	padding: 40px 42px;
+  	box-sizing: border-box;
+  	gap: 28px;
+  	flex-shrink: 0;
+}
+.heading {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 10px;
+}
+.welcome-label {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.accent {
+  	height: 3px;
+  	width: 30px;
+  	position: relative;
+  	border-radius: 16777200px;
+  	background-color: #1db48e;
+}
+.welcome {
+  	position: relative;
+  	letter-spacing: 0.7px;
+  	font-weight: 600;
+}
+.title {
+  	position: relative;
+  	font-size: 31.25px;
+  	font-weight: 600;
+  	color: #02341c;
+}
+.description {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	color: #668391;
+}
+.credentials {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+  	font-size: 14px;
+  	color: #334149;
+}
+.form-field {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.input {
+  	align-self: stretch;
+  	height: 52px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #d1dadf;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	gap: 12px;
+  	color: #7b8c94;
+}
+.mail-icon {
+  	height: 19px;
+  	width: 19px;
+  	position: relative;
+}
+.placeholder {
+  	flex: 1;
+  	position: relative;
+}
+.password-options {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.remember-me {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 9px;
+}
+.checkbox {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: 1.2px solid #adbdc5;
+  	box-sizing: border-box;
+}
+.remember-label {
+  	position: relative;
+}
+.forgot-password {
+  	position: relative;
+  	font-weight: 500;
+  	color: #0f5e4a;
+  	cursor: pointer;
+}
+.sign-in-button {
+  	align-self: stretch;
+  	height: 52px;
+  	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  	border-radius: 10px;
+  	background-color: #0f5e4a;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	cursor: pointer;
+  	font-size: 16px;
+  	color: #fff;
+}
+.action-label {
+  	position: relative;
+  	font-weight: 600;
+}
+.arrow-right-icon {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+}
+.access-help {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 11px;
+  	text-align: center;
+  	font-size: 13px;
+  	color: #4c626d;
+}
+.divider {
+  	align-self: stretch;
+  	height: 1px;
+  	position: relative;
+  	background-color: #d1dadf;
+}
+.request-access {
+  	align-self: stretch;
+  	position: relative;
+}
+.solictalo-aqu {
+  	font-weight: 600;
+  	color: #0f5e4a;
+}
+.support {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 12px;
+  	color: #7b8c94;
+}
+.legal-note {
+  	width: 456px;
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 145%;
+  	color: #f5f7f8;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+

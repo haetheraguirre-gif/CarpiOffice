@@ -1,0 +1,732 @@
+.detalle-de-despacho-ord-0102 {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f7f9fa;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 887px;
+  	text-align: left;
+  	font-size: 16.71px;
+  	color: #e0ebdc;
+  	font-family: 'Roboto Condensed';
+}
+.men-lateral {
+  	align-self: stretch;
+  	width: 200px;
+  	background-color: #204d20;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.identidad {
+  	align-self: stretch;
+  	height: 74px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 23px;
+  	box-sizing: border-box;
+  	font-size: 34.68px;
+  	color: #fff;
+}
+.marca {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.opcin-de-navegacin {
+  	align-self: stretch;
+  	height: 51.4px;
+  	background-color: #204d20;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 40px;
+  	box-sizing: border-box;
+}
+.destino {
+  	position: relative;
+  	line-height: 125%;
+}
+.opcin-de-navegacin8 {
+  	align-self: stretch;
+  	height: 51.4px;
+  	background-color: #386d32;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 40px;
+  	box-sizing: border-box;
+}
+.rea-de-trabajo {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 14px;
+  	color: #8b908d;
+}
+.barra-del-administrador {
+  	align-self: stretch;
+  	height: 80px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 0px 0px 30px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 234px;
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+  	line-height: 122%;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	width: 180px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 16px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta2 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta3 {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 122%;
+}
+.detalle-del-despacho {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18px 32px 24px;
+  	gap: 16px;
+  	font-size: 11px;
+  	color: #728390;
+}
+.resumen-del-despacho {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 14px;
+}
+.ruta-de-navegacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 7px;
+}
+.separador-de-ruta {
+  	height: 11px;
+  	width: 11px;
+  	position: relative;
+}
+.etiqueta7 {
+  	position: relative;
+  	line-height: 125%;
+  	color: #1d392a;
+}
+.encabezado-de-pgina {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 30px;
+  	color: #1d392a;
+}
+.ttulo-y-descripcin {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.ttulo-y-estado {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.truck-icon {
+  	height: 25px;
+  	width: 25px;
+  	position: relative;
+}
+.estado-del-despacho {
+  	border-radius: 5px;
+  	background-color: #eaf4ea;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 5px 8px;
+  	font-size: 11px;
+  	color: #386d32;
+}
+.etiqueta9 {
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 125%;
+  	color: #728390;
+}
+.acciones-de-pgina {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 8px;
+  	text-align: center;
+  	font-size: 13px;
+  	color: #37444c;
+}
+.accin-de-despacho {
+  	height: 34px;
+  	width: 124px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4ebf0;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 7px 12px;
+}
+.primary-button {
+  	flex: 1;
+  	position: relative;
+  	font-weight: 600;
+}
+.accin-de-despacho2 {
+  	height: 34px;
+  	width: 151px;
+  	border-radius: 5px;
+  	background-color: #386d32;
+  	border: 1px solid #386d32;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 7px 12px;
+  	color: #fff;
+}
+.datos-principales {
+  	align-self: stretch;
+  	height: 76px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 16px;
+  	gap: 24px;
+}
+.pedido {
+  	width: 156px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.etiqueta11 {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 125%;
+  	font-weight: 600;
+  	color: #1d392a;
+}
+.dato-del-despacho {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.etiqueta-del-campo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+}
+.valor {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 125%;
+  	font-weight: 500;
+  	color: #37444c;
+}
+.preparacin-del-envo {
+  	width: 250px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.estado-de-preparacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	font-size: 13px;
+  	color: #386d32;
+}
+.etiqueta13 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.informacin-operativa {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 12px;
+  	color: #37444c;
+}
+.pedido-y-destinatario {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.productos-a-despachar {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e4ebf0;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.encabezado-de-seccin {
+  	align-self: stretch;
+  	height: 43px;
+  	border-bottom: 1px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 16px;
+  	gap: 20px;
+  	font-size: 15px;
+  	color: #1d392a;
+}
+.etiqueta14 {
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 125%;
+  	color: #728390;
+}
+.cabecera-de-productos {
+  	align-self: stretch;
+  	height: 28px;
+  	background-color: #fafbfc;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	font-size: 10.5px;
+  	color: #728390;
+}
+.etiqueta15 {
+  	width: 72px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta16 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+}
+.etiqueta17 {
+  	width: 60px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta18 {
+  	width: 106px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.producto-del-pedido {
+  	align-self: stretch;
+  	height: 43px;
+  	border-bottom: 1px solid #f0f3f5;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	gap: 12px;
+}
+.etiqueta19 {
+  	width: 72px;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	color: #1d392a;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.descripcin-del-producto {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2px;
+}
+.etiqueta21 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 10.5px;
+  	line-height: 125%;
+  	color: #728390;
+}
+.preparacin-del-producto {
+  	width: 106px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 5px;
+  	font-size: 11px;
+  	color: #386d32;
+}
+.circle-check-icon {
+  	height: 13px;
+  	width: 13px;
+  	position: relative;
+}
+.resumen-de-productos {
+  	align-self: stretch;
+  	height: 32px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 16px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	font-size: 11px;
+  	color: #728390;
+}
+.etiqueta35 {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 125%;
+  	font-weight: 600;
+  	color: #1d392a;
+}
+.informacin-de-entrega {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e4ebf0;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 15px;
+  	color: #1d392a;
+}
+.encabezado-de-seccin2 {
+  	align-self: stretch;
+  	height: 43px;
+  	border-bottom: 1px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 16px;
+}
+.datos-del-destinatario {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 14px;
+  	gap: 10px;
+  	font-size: 11px;
+  	color: #728390;
+}
+.direccin-y-contacto {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 24px;
+}
+.divisor {
+  	align-self: stretch;
+  	height: 1px;
+  	position: relative;
+  	background-color: #f0f3f5;
+}
+.instrucciones-de-entrega {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.etiqueta37 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 125%;
+  	color: #37444c;
+}
+.transporte-y-preparacin {
+  	width: 354px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 15px;
+  	color: #1d392a;
+}
+.datos-del-transporte {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 14px;
+  	font-size: 13px;
+}
+.transportista {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.identificador-de-transporte {
+  	height: 34px;
+  	width: 34px;
+  	border-radius: 17px;
+  	background-color: #eaf4ea;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.truck-icon2 {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+}
+.vehculo-y-salida {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 20px;
+  	font-size: 11px;
+  	color: #728390;
+}
+.accin-de-despacho3 {
+  	width: 148px;
+  	height: 34px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4ebf0;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 7px 12px;
+  	text-align: center;
+  	color: #37444c;
+}
+.verificaciones {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 12px;
+  	font-size: 12px;
+  	color: #37444c;
+}
+.nota-de-salida {
+  	align-self: stretch;
+  	border-radius: 5px;
+  	background-color: #fafbfc;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 10px;
+  	font-size: 11px;
+  	color: #728390;
+}
+.seguimiento-y-acciones {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 15px;
+  	color: #1d392a;
+}
+.encabezado-de-seccin5 {
+  	align-self: stretch;
+  	height: 43px;
+  	border-bottom: 1px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 16px;
+  	gap: 20px;
+}
+.registro-de-preparacin {
+  	align-self: stretch;
+  	height: 40px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	box-sizing: border-box;
+  	gap: 10px;
+  	font-size: 12px;
+  	color: #37444c;
+}
+.indicador-de-actividad {
+  	height: 7px;
+  	width: 7px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #386d32;
+}
+.acciones-y-estado-de-salida {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 11px;
+  	color: #728390;
+}
+.aviso-de-despacho-pendiente {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+}
+.info-icon {
+  	height: 14px;
+  	width: 14px;
+  	position: relative;
+}
+.accin-de-despacho4 {
+  	height: 34px;
+  	width: 182px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4ebf0;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 7px 12px;
+  	text-align: center;
+  	font-size: 13px;
+  	color: #37444c;
+}
+

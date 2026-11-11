@@ -1,0 +1,962 @@
+.dashboard-operativo {
+  	width: 100%;
+  	height: 752px;
+  	position: relative;
+  	background-color: #f7f9fa;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 14px;
+  	color: #8b908d;
+  	font-family: 'Roboto Condensed';
+}
+.barra-de-herramientasusuarios {
+  	position: absolute;
+  	top: 0.31px;
+  	left: 195px;
+  	background-color: #fff;
+  	width: 1191px;
+  	height: 80px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 0px 0px 30px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	flex-shrink: 0;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 234px;
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+  	line-height: 122%;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	width: 180px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 16px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta2 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta3 {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 122%;
+}
+.navegacin {
+  	position: absolute;
+  	top: 0.31px;
+  	left: 0px;
+  	width: 1003.5px;
+  	height: 752.6px;
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+  	font-size: 34.68px;
+  	color: #fff;
+}
+.men-lateral {
+  	height: 1040px;
+  	width: 200px;
+  	background-color: #204d20;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	position: relative;
+  	isolation: isolate;
+}
+.identidad {
+  	width: 346.8px;
+  	height: 104px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: -10.69px;
+  	left: -26px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 48.6px;
+  	box-sizing: border-box;
+  	z-index: 0;
+}
+.marca {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.opciones-de-navegacin {
+  	width: 315.2px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 73.31px;
+  	left: -23px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	z-index: 1;
+  	flex-shrink: 0;
+  	font-size: 16.71px;
+  	color: #e0ebdc;
+}
+.opcin-de-men {
+  	width: 315.2px;
+  	height: 51.4px;
+  	background-color: #386d32;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 63px;
+  	box-sizing: border-box;
+}
+.opcin-de-men2 {
+  	width: 315.2px;
+  	height: 51.4px;
+  	background-color: #204d20;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 63px;
+  	box-sizing: border-box;
+}
+.contenido-operativo {
+  	position: absolute;
+  	top: 81.31px;
+  	left: 262px;
+  	width: 1146.5px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15.1px;
+  	flex-shrink: 0;
+  	font-size: 30.1px;
+  	color: #37444c;
+}
+.resumen-operativo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15.1px;
+  	color: #1d392a;
+}
+.encabezado-de-pgina {
+  	align-self: stretch;
+  	height: 55.2px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.ttulo-y-descripcin {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2.5px;
+}
+.ttulo {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.smbolo-de-actividad {
+  	height: 30.1px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-end;
+  	gap: 5px;
+}
+.barra-de-actividad {
+  	height: 12.5px;
+  	width: 6.3px;
+  	position: relative;
+  	background-color: #4c9752;
+}
+.barra-de-actividad2 {
+  	height: 20.1px;
+  	width: 6.3px;
+  	position: relative;
+  	background-color: #4c9752;
+}
+.barra-de-actividad3 {
+  	height: 30.1px;
+  	width: 6.3px;
+  	position: relative;
+  	background-color: #4c9752;
+}
+.ttulo-de-pgina {
+  	position: relative;
+  	line-height: 125%;
+}
+.descripcin-de-pgina {
+  	position: relative;
+  	font-size: 13.05px;
+  	line-height: 125%;
+  	color: #81919d;
+}
+.fecha-y-actualizacin {
+  	width: 416.4px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 17.6px;
+  	font-size: 12.04px;
+  	color: #728390;
+}
+.calendar-icon {
+  	height: 17.6px;
+  	width: 17.6px;
+  	position: relative;
+}
+.etiqueta18 {
+  	position: relative;
+  	font-size: 12.54px;
+  	line-height: 125%;
+  	color: #ced6db;
+}
+.refresh-cw-icon {
+  	height: 15.1px;
+  	width: 15.1px;
+  	position: relative;
+}
+.indicadores {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 10px;
+  	font-size: 13.8px;
+  	color: #81919d;
+}
+.resumen-de-indicador {
+  	height: 153px;
+  	width: 146.8px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12.5px;
+  	gap: 5px;
+}
+.indicador {
+  	width: 40.1px;
+  	height: 40.1px;
+  	border-radius: 20.07px;
+  	background-color: #eaf4ea;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.package-icon {
+  	height: 22.1px;
+  	width: 22.1px;
+  	position: relative;
+}
+.nombre-de-indicador {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+  	color: #37444c;
+  	flex-shrink: 0;
+}
+.cantidad {
+  	position: relative;
+  	font-size: 25.09px;
+  	line-height: 125%;
+  	color: #1d392a;
+  	flex-shrink: 0;
+}
+.detalle-de-indicador {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	flex-shrink: 0;
+  	font-size: 9.78px;
+}
+.etiqueta21 {
+  	position: relative;
+  	font-size: 9.28px;
+  	line-height: 125%;
+}
+.tendencia {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 20px;
+  	flex-shrink: 0;
+  	font-size: 8.78px;
+}
+.trending-up-icon {
+  	height: 12.5px;
+  	width: 12.5px;
+  	position: relative;
+}
+.indicador3 {
+  	width: 40.1px;
+  	height: 40.1px;
+  	border-radius: 20.07px;
+  	background-color: #fff2d9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.detalle-de-indicador3 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 11.7px;
+  	flex-shrink: 0;
+  	font-size: 9.78px;
+}
+.resumen-de-indicador4 {
+  	height: 153px;
+  	width: 155.5px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12.5px;
+  	gap: 5px;
+}
+.indicador4 {
+  	width: 40.1px;
+  	height: 40.1px;
+  	border-radius: 20.07px;
+  	background-color: #fbe9ec;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.etiqueta30 {
+  	position: relative;
+  	font-size: 9.28px;
+  	line-height: 125%;
+  	color: #cc515d;
+}
+.resumen-de-indicador5 {
+  	height: 153px;
+  	width: 158px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12.5px;
+  	gap: 5px;
+}
+.inventario-y-despachos {
+  	align-self: stretch;
+  	height: 303.6px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 10px;
+  	font-size: 14.3px;
+}
+.stock-por-categoras {
+  	height: 303.6px;
+  	width: 303.6px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12.5px;
+  	gap: 10px;
+}
+.encabezado-de-panel {
+  	align-self: stretch;
+  	height: 35.1px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.package-icon2 {
+  	height: 22.6px;
+  	width: 22.6px;
+  	position: relative;
+}
+.ttulo-de-panel {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.distribucin-de-inventario {
+  	align-self: stretch;
+  	height: 195.7px;
+  	display: flex;
+  	align-items: center;
+  	gap: 7.5px;
+  	font-size: 11.04px;
+  	color: #fff;
+}
+.grfico-de-anillo {
+  	height: 185.6px;
+  	width: 170.6px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	position: relative;
+  	isolation: isolate;
+}
+.segmento-de-categora {
+  	height: 170.6px;
+  	width: 170.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 50%;
+  	background-color: #4a9b50;
+  	z-index: 0;
+}
+.segmento-de-categora2 {
+  	height: 170.6px;
+  	width: 170.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 50%;
+  	background-color: #d69d24;
+  	z-index: 1;
+}
+.segmento-de-categora3 {
+  	height: 170.6px;
+  	width: 170.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 50%;
+  	background-color: #e34a3e;
+  	z-index: 2;
+}
+.segmento-de-categora4 {
+  	height: 170.6px;
+  	width: 170.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 50%;
+  	background-color: #3c79ae;
+  	z-index: 3;
+}
+.segmento-de-categora5 {
+  	height: 170.6px;
+  	width: 170.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 50%;
+  	background-color: #88959c;
+  	z-index: 4;
+}
+.valor-del-stock {
+  	width: 125.4px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 67.74px;
+  	left: 22.58px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	z-index: 5;
+  	font-size: 11.54px;
+  	color: #81919d;
+}
+.etiqueta39 {
+  	position: relative;
+  	font-size: 16.31px;
+  	line-height: 125%;
+  	color: #37444c;
+}
+.porcentaje {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 45.16px;
+  	left: 125.44px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	z-index: 6;
+}
+.porcentaje2 {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 120.42px;
+  	left: 122.93px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	z-index: 7;
+}
+.porcentaje3 {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 143px;
+  	left: 65.23px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	z-index: 8;
+}
+.porcentaje4 {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 90.31px;
+  	left: 7.53px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	z-index: 9;
+}
+.porcentaje5 {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 22.58px;
+  	left: 55.19px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	z-index: 10;
+}
+.leyenda-de-categoras {
+  	width: 92.8px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15.1px;
+  	font-size: 10.29px;
+  	color: #37444c;
+}
+.categora {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 5px;
+}
+.muestra {
+  	height: 7.5px;
+  	width: 7.5px;
+  	position: relative;
+  	border-radius: 1.25px;
+  	background-color: #4a9b50;
+}
+.etiqueta45 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+}
+.muestra2 {
+  	height: 7.5px;
+  	width: 7.5px;
+  	position: relative;
+  	border-radius: 1.25px;
+  	background-color: #d69d24;
+}
+.muestra3 {
+  	height: 7.5px;
+  	width: 7.5px;
+  	position: relative;
+  	border-radius: 1.25px;
+  	background-color: #e34a3e;
+}
+.muestra4 {
+  	height: 7.5px;
+  	width: 7.5px;
+  	position: relative;
+  	border-radius: 1.25px;
+  	background-color: #3c79ae;
+}
+.muestra5 {
+  	height: 7.5px;
+  	width: 7.5px;
+  	position: relative;
+  	border-radius: 1.25px;
+  	background-color: #88959c;
+}
+.despachos-en-proceso {
+  	height: 303.6px;
+  	width: 321.1px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12.5px;
+  	gap: 7.5px;
+  	font-size: 10.29px;
+}
+.encabezado-de-panel2 {
+  	align-self: stretch;
+  	height: 35.1px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	font-size: 14.3px;
+}
+.etiqueta55 {
+  	position: relative;
+  	font-size: 10.03px;
+  	line-height: 125%;
+  	color: #81919d;
+}
+.cabecera-de-despachos {
+  	align-self: stretch;
+  	height: 32.6px;
+  	background-color: #fafbfc;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 7.5px;
+  	font-size: 9.78px;
+  	color: #81919d;
+}
+.etiqueta57 {
+  	width: 90.3px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta58 {
+  	width: 67.7px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.pedido-en-proceso {
+  	align-self: stretch;
+  	height: 43.9px;
+  	border-bottom: 1.3px solid #f0f3f5;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 7.5px;
+}
+.pedido {
+  	width: 62.7px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.cliente {
+  	width: 90.3px;
+  	position: relative;
+  	font-size: 9.78px;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.fecha-de-entrega {
+  	width: 67.7px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2.5px;
+  	font-size: 9.53px;
+}
+.etiqueta61 {
+  	position: relative;
+  	font-size: 8.28px;
+  	line-height: 125%;
+  	color: #81919d;
+}
+.estado-del-pedido {
+  	border-radius: 5.02px;
+  	background-color: #fbe9ec;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 5px 7.5px;
+  	font-size: 9.03px;
+  	color: #cc515d;
+}
+.stock-bajo-y-pedidos-prximos {
+  	height: 303.6px;
+  	width: 316.1px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12.5px;
+  	gap: 7.5px;
+  	font-size: 10.54px;
+}
+.cabecera-de-stock {
+  	align-self: stretch;
+  	height: 27.6px;
+  	background-color: #fafbfc;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 10.29px;
+  	color: #81919d;
+}
+.producto-con-stock-bajo {
+  	align-self: stretch;
+  	height: 28.9px;
+  	border-bottom: 1.3px solid #f0f3f5;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.etiqueta74 {
+  	width: 203.2px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta75 {
+  	position: relative;
+  	font-size: 10.29px;
+  	line-height: 125%;
+}
+.acciones-rpidas {
+  	align-self: stretch;
+  	height: 72.8px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 10px;
+  	font-size: 11.79px;
+}
+.acceso-rpido {
+  	height: 72.8px;
+  	width: 195.7px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 12.5px 15.1px;
+  	gap: 12.5px;
+}
+.indicador7 {
+  	height: 42.6px;
+  	width: 42.6px;
+  	border-radius: 21.32px;
+  	background-color: #eaf4ea;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.descripcin-de-accin {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.etiqueta87 {
+  	position: relative;
+  	font-size: 9.53px;
+  	line-height: 125%;
+  	color: #81919d;
+}
+.chevron-right-icon {
+  	height: 10px;
+  	width: 10px;
+  	position: relative;
+}
+.etiqueta88 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.etiqueta89 {
+  	position: relative;
+  	font-size: 9.53px;
+  	line-height: 125%;
+  	color: #81919d;
+  	flex-shrink: 0;
+}
+.acceso-rpido3 {
+  	height: 72.8px;
+  	width: 183.1px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 12.5px 15.1px;
+  	gap: 12.5px;
+}
+.indicador9 {
+  	height: 42.6px;
+  	width: 42.6px;
+  	border-radius: 21.32px;
+  	background-color: #fbe9ec;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.acceso-rpido4 {
+  	height: 72.8px;
+  	width: 158px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 12.5px 15.1px;
+  	gap: 12.5px;
+}
+.acceso-rpido5 {
+  	height: 72.8px;
+  	width: 168.1px;
+  	border-radius: 7.53px;
+  	background-color: #fff;
+  	border: 1.5px solid #e4ebf0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 12.5px 15.1px;
+  	gap: 12.5px;
+}
+.calendar-days-icon {
+  	height: 23.5px;
+  	width: 23.5px;
+  	position: relative;
+}
+

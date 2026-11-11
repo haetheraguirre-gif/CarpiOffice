@@ -1,0 +1,576 @@
+.compras {
+  	width: 100%;
+  	height: 822px;
+  	position: relative;
+  	background-color: #f8f8f8;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: left;
+  	font-size: 21.55px;
+  	color: #fff7e5;
+  	font-family: Roboto;
+}
+.aplicacin-de-compras {
+  	align-self: stretch;
+  	height: 821.3px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+}
+.men-lateral {
+  	height: 822px;
+  	width: 200px;
+  	border-radius: 8.62px 0px 0px 4.31px;
+  	background-color: #583b16;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 15.1px 8.6px 0px 11.9px;
+  	box-sizing: border-box;
+  	gap: 37.7px;
+}
+.marca {
+  	align-self: stretch;
+  	height: 32.3px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 16.2px;
+  	box-sizing: border-box;
+  	gap: 5.4px;
+}
+.smbolo-de-marca {
+  	height: 32.3px;
+  	width: 26.9px;
+  	position: relative;
+}
+.nombre-de-marca {
+  	position: relative;
+}
+.navegacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7.5px;
+  	font-size: 15.09px;
+  	font-family: 'Roboto Condensed';
+}
+.opcin-de-men {
+  	align-self: stretch;
+  	height: 39.9px;
+  	border-radius: 6.47px;
+  	background-color: #765020;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 2.2px 0px 9.7px;
+  	box-sizing: border-box;
+  	gap: 11.9px;
+}
+.house-icon {
+  	height: 17.2px;
+  	width: 17.2px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+  	line-height: 125%;
+}
+.opcin-de-men2 {
+  	align-self: stretch;
+  	height: 39.9px;
+  	border-radius: 6.47px;
+  	background-color: #583b16;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 2.2px 0px 9.7px;
+  	box-sizing: border-box;
+  	gap: 11.9px;
+}
+.opcin-de-men4 {
+  	align-self: stretch;
+  	height: 39.9px;
+  	border-radius: 6.47px;
+  	background-color: #583b16;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 2.2px 0px 9.7px;
+  	box-sizing: border-box;
+  	gap: 11.9px;
+  	cursor: pointer;
+}
+.espacio-de-trabajo {
+  	height: 821.3px;
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 16.88px;
+  	color: #767676;
+  	font-family: 'Roboto Condensed';
+}
+.barra-de-herramientas {
+  	align-self: stretch;
+  	height: 70.3px;
+  	background-color: #fff;
+  	border-bottom: 1.4px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12.7px 0px 473.9px;
+  	gap: 25.3px;
+}
+.buscador {
+  	height: 43.6px;
+  	width: 345.9px;
+  	border-radius: 25.31px;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12.7px 0px 16.9px;
+  	gap: 12.7px;
+}
+.search-icon {
+  	height: 19.7px;
+  	width: 19.7px;
+  	position: relative;
+}
+.etiqueta9 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 125%;
+}
+.chevron-down-icon {
+  	height: 14.1px;
+  	width: 14.1px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 23.9px;
+  	width: 23.9px;
+  	position: relative;
+}
+.cuenta-de-compras {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 14.1px;
+  	color: #111511;
+}
+.foto-de-perfil {
+  	height: 40.8px;
+  	width: 40.8px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.datos-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta10 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.chevron-down-icon2 {
+  	height: 16.9px;
+  	width: 16.9px;
+  	position: relative;
+}
+.contenido-de-compras {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18.3px 9.8px 9.8px 22.5px;
+  	gap: 19.7px;
+  	flex-shrink: 0;
+  	color: #111511;
+}
+.resumen-de-compras {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15.5px;
+  	font-size: 28.13px;
+}
+.ttulo-del-dashboard {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 0px 0px 0px 4.2px;
+  	gap: 2.8px;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 33.75px;
+}
+.etiqueta12 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 19.69px;
+  	line-height: 125%;
+}
+.indicadores-de-compras {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 19.7px;
+  	font-size: 19.69px;
+}
+.resumen-de-indicador {
+  	height: 147.7px;
+  	width: 267.2px;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 21.1px 23.9px 21.1px 25.3px;
+  	gap: 11.3px;
+}
+.etiqueta13 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+}
+.valor-y-estado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 28.13px;
+}
+.detalle-del-indicador {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7px;
+}
+.etiqueta14 {
+  	position: relative;
+  	font-size: 16.88px;
+  	line-height: 125%;
+}
+.route-icon {
+  	height: 35.2px;
+  	width: 35.2px;
+  	position: relative;
+}
+.resumen-de-indicador2 {
+  	height: 147.7px;
+  	width: 265.8px;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 21.1px 23.9px 21.1px 25.3px;
+  	gap: 11.3px;
+}
+.resumen-de-indicador3 {
+  	height: 147.7px;
+  	flex: 1;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 21.1px 23.9px 21.1px 25.3px;
+  	gap: 11.3px;
+}
+.rdenes-y-materiales {
+  	align-self: stretch;
+  	height: 375.5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 19.7px;
+}
+.rdenes-de-compra-recientes {
+  	align-self: stretch;
+  	width: 736.9px;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 19.7px 25.3px 0px;
+}
+.encabezado-de-rdenes {
+  	align-self: stretch;
+  	height: 45px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 19.69px;
+}
+.columnas-de-rdenes {
+  	align-self: stretch;
+  	height: 50.6px;
+  	border-top: 1.4px solid #efefef;
+  	border-bottom: 1.4px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+}
+.dato-de-orden {
+  	width: 111.1px;
+  	position: relative;
+  	line-height: 22.5px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-orden2 {
+  	width: 174.4px;
+  	position: relative;
+  	line-height: 22.5px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-orden3 {
+  	width: 142px;
+  	position: relative;
+  	line-height: 22.5px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-orden4 {
+  	width: 118.1px;
+  	position: relative;
+  	line-height: 22.5px;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-orden5 {
+  	width: 137.8px;
+  	position: relative;
+  	line-height: 22.5px;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.orden-de-compra {
+  	align-self: stretch;
+  	height: 50.6px;
+  	border-bottom: 1.4px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+}
+.estado {
+  	width: 142px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	color: #33543b;
+}
+.etiqueta-de-estado {
+  	border-radius: 22.5px;
+  	background-color: #e6f2e5;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 2.8px 12.7px;
+}
+.acceso-a-rdenes {
+  	align-self: stretch;
+  	height: 56.3px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.materiales-ms-comprados {
+  	align-self: stretch;
+  	flex: 1;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 19.7px 25.3px 0px;
+  	font-size: 18.28px;
+}
+.material {
+  	align-self: stretch;
+  	height: 56.3px;
+  	border-top: 1.4px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 0px 0px 8.4px;
+  	gap: 23.9px;
+}
+.file-pen-line-icon {
+  	height: 22.5px;
+  	width: 22.5px;
+  	position: relative;
+}
+.acceso-a-reporte {
+  	align-self: stretch;
+  	height: 68.9px;
+  	border-top: 1.4px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9.8px 0px 0px;
+  	font-size: 16.88px;
+}
+.acciones-rpidas {
+  	align-self: stretch;
+  	height: 84.4px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 9.8px;
+}
+.accin-rpida {
+  	height: 84.4px;
+  	width: 261.6px;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12.7px 0px 36.6px;
+  	gap: 5.6px;
+}
+.file-text-icon3 {
+  	height: 25.3px;
+  	width: 25.3px;
+  	position: relative;
+}
+.botn-de-accin {
+  	height: 56.3px;
+  	width: 181.4px;
+  	border-radius: 11.25px;
+  	background-color: #fff;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 22.5px 14.1px;
+  	box-sizing: border-box;
+}
+.primary-button {
+  	position: relative;
+  	flex-shrink: 0;
+}
+.accin-rpida2 {
+  	height: 84.4px;
+  	width: 250.3px;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12.7px 0px 36.6px;
+  	gap: 5.6px;
+}
+.botn-de-accin2 {
+  	height: 56.3px;
+  	width: 170.2px;
+  	border-radius: 11.25px;
+  	background-color: #fff;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 22.5px 14.1px;
+  	box-sizing: border-box;
+}
+.accin-rpida3 {
+  	height: 84.4px;
+  	width: 274.2px;
+  	border-radius: 14.06px;
+  	background-color: #fff;
+  	border: 1.4px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12.7px 0px 36.6px;
+  	gap: 5.6px;
+}
+.botn-de-accin3 {
+  	height: 56.3px;
+  	width: 194.1px;
+  	border-radius: 11.25px;
+  	background-color: #fff;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 22.5px 14.1px;
+  	box-sizing: border-box;
+}
+

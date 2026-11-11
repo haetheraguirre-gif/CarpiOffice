@@ -1,0 +1,848 @@
+.clientes-perfil {
+  	width: 100%;
+  	height: 1285px;
+  	position: relative;
+  	background-color: #f8f9fb;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 1000px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.vendedor-barra-de-navegacin {
+  	height: 1285px;
+  	width: 254px;
+  	background-color: #112c67;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.espacio-de-trabajo {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 15px;
+  	color: #92969f;
+  	font-family: 'Roboto Condensed';
+}
+.vendedor-barra-de-cuenta {
+  	align-self: stretch;
+  	height: 72px;
+  	background-color: rgba(148, 176, 236, 0.15);
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 8px 0px 324px;
+  	gap: 18px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 312px;
+  	border-radius: 24px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 8px;
+}
+.search-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.etiqueta9 {
+  	position: relative;
+  	line-height: 125%;
+}
+.bell-icon {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.cuenta-del-vendedor {
+  	width: 286px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 17.9px;
+  	box-sizing: border-box;
+  	gap: 8.5px;
+  	font-size: 15.23px;
+  	color: #252932;
+}
+.avatar-icon {
+  	height: 32.2px;
+  	width: 32.2px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.datos-de-cuenta {
+  	width: 175px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta10 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.etiqueta11 {
+  	position: relative;
+  	font-size: 11.85px;
+  	line-height: 125%;
+}
+.chevron-down-icon {
+  	height: 13.5px;
+  	width: 13.5px;
+  	position: relative;
+}
+.gestin-de-clientes {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 20px 30px;
+  	gap: 18px;
+  	color: #193c76;
+}
+.regreso-al-listado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.arrow-left-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	cursor: pointer;
+}
+.volver-a-clientes {
+  	position: relative;
+  	cursor: pointer;
+}
+.ruta {
+  	position: relative;
+  	color: #626873;
+  	white-space: pre-wrap;
+}
+.resumen-de-clientes {
+  	width: 1128px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 14.91px;
+  	color: #252932;
+  	font-family: Poppins;
+}
+.introduccin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 28px;
+  	font-family: 'Roboto Condensed';
+}
+.presentacin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+  	max-width: 100%;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 34px;
+  	font-weight: 600;
+}
+.descripcin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.frame-parent {
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 20px;
+  	font-size: 16px;
+}
+.datos-empresa-wrapper {
+  	display: flex;
+  	align-items: flex-start;
+}
+.datos-empresa {
+  	height: 455px;
+  	width: 250px;
+  	border-radius: 15px;
+  	background-color: #fff;
+  	border: 1px solid rgba(25, 60, 118, 0.15);
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 24px 26px;
+}
+.indicadores-de-clientes {
+  	width: 193px;
+  	border-radius: 18.63px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px 0px;
+  	box-sizing: border-box;
+  	gap: 7px;
+}
+.ellipse-parent {
+  	width: 139.8px;
+  	height: 139.8px;
+  	position: relative;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 50%;
+  	background-color: #efefef;
+  	border: 1px solid rgba(25, 60, 118, 0.54);
+  	box-sizing: border-box;
+  	width: 139.8px;
+  	height: 139.8px;
+}
+.company-icon {
+  	position: absolute;
+  	top: 25px;
+  	left: 25px;
+  	width: 90px;
+  	height: 90px;
+  	object-fit: cover;
+}
+.camara {
+  	position: absolute;
+  	top: 93.17px;
+  	left: 93.18px;
+  	width: 46.6px;
+  	height: 46.6px;
+}
+.camara-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 50%;
+  	background-color: #193c76;
+  	border: 2.8px solid #fff;
+  	box-sizing: border-box;
+}
+.camera-icon {
+  	position: absolute;
+  	height: 50%;
+  	width: 50%;
+  	top: 23.99%;
+  	right: 26.01%;
+  	bottom: 26.01%;
+  	left: 23.99%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.frame-group {
+  	width: 150px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.etiqueta-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.etiqueta12 {
+  	width: 124px;
+  	position: relative;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.estado {
+  	width: 48px;
+  	height: 13px;
+  	border-radius: 17.5px;
+  	background-color: #e0f3e6;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 3.6px 7.3px;
+  	box-sizing: border-box;
+  	gap: 4.4px;
+  	font-size: 9.48px;
+  	color: #39794c;
+  	font-family: 'Roboto Condensed';
+}
+.indicador-de-estado {
+  	height: 3.7px;
+  	width: 3.6px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #39794c;
+  	flex-shrink: 0;
+}
+.etiqueta13 {
+  	position: relative;
+  	line-height: 125%;
+  	flex-shrink: 0;
+}
+.etiqueta14 {
+  	position: relative;
+  	font-size: 10px;
+  	color: #626873;
+}
+.frame-wrapper {
+  	width: 150.5px;
+  	height: 90.9px;
+  	position: relative;
+  	font-size: 7.45px;
+  	color: #626873;
+}
+.group-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	right: 0px;
+  	width: 150.5px;
+  	height: 90.9px;
+}
+.group-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 144.7px;
+  	height: 84.7px;
+}
+.group-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 14px;
+  	height: 26px;
+  	object-fit: cover;
+}
+.detalle {
+  	position: absolute;
+  	top: 0px;
+  	left: 17.7px;
+  	display: inline-block;
+  	width: 127px;
+  	font-size: 10px;
+  	color: #252932;
+}
+.laura-martinez {
+  	font-weight: 500;
+}
+.cliente-principal {
+  	font-size: 7px;
+  	color: #626873;
+}
+.detalle2 {
+  	position: absolute;
+  	top: 31.59px;
+  	left: 17.7px;
+  	text-decoration: underline;
+  	color: inherit;
+  	display: inline-block;
+  	width: 127px;
+}
+.phone-icon {
+  	position: absolute;
+  	top: 51.16px;
+  	left: 0px;
+  	width: 14px;
+  	height: 14px;
+  	object-fit: cover;
+}
+.detalle3 {
+  	position: absolute;
+  	top: 51.16px;
+  	left: 17.7px;
+  	display: inline-block;
+  	width: 126.7px;
+  	height: 8.4px;
+}
+.place-marker-icon {
+  	position: absolute;
+  	top: 70.72px;
+  	left: 0px;
+  	width: 14px;
+  	height: 14px;
+  	object-fit: cover;
+}
+.detalle4 {
+  	position: absolute;
+  	top: 70.72px;
+  	left: 17.7px;
+  	display: inline-block;
+  	width: 126.7px;
+  	height: 8.4px;
+}
+.ver-historial {
+  	width: 80.7px;
+  	height: 23.1px;
+  	border-radius: 5.38px;
+  	border: 0.8px solid rgba(25, 60, 118, 0.62);
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 4.8px 2.7px;
+  	gap: 3.8px;
+  	font-size: 9.14px;
+  	color: #000;
+}
+.delivery-time-icon {
+  	height: 16.1px;
+  	width: 16.1px;
+  	position: relative;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frame-container {
+  	width: 776px;
+  	border-radius: 15px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 30px;
+  	box-sizing: border-box;
+  	gap: 5px;
+  	font-size: 11.3px;
+  	color: #626873;
+}
+.frame-div {
+  	width: 652px;
+  	height: 37px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	font-size: 14.91px;
+  	color: #252932;
+}
+.etiqueta-wrapper {
+  	width: 217px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 8px;
+  	box-sizing: border-box;
+}
+.etiqueta15 {
+  	position: relative;
+  	font-weight: 600;
+}
+.frame-parent2 {
+  	width: 658px;
+  	height: 296px;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	padding: 12.8px 6.4px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.frame-parent3 {
+  	width: 330px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6.4px;
+}
+.tipo-de-persona-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 6.4px;
+}
+.tipo-de-persona {
+  	align-self: stretch;
+  	position: relative;
+}
+.persona-natural-juridica {
+  	width: 330px;
+  	height: 34.6px;
+  	position: relative;
+  	font-size: 13.87px;
+}
+.ellipse-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.67%;
+  	top: 0%;
+  	right: 53.33%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 7.86px;
+  	background-color: rgba(209, 218, 223, 0.6);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 6.3px 11px 7.9px;
+  	box-sizing: border-box;
+  	gap: 9.4px;
+}
+.frame-child {
+  	height: 15.7px;
+  	width: 15.7px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: rgba(245, 247, 248, 0.8);
+  	flex-shrink: 0;
+}
+.persona-natural {
+  	position: relative;
+  	flex-shrink: 0;
+}
+.ellipse-container {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.67%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.34%;
+  	border-radius: 7.86px;
+  	background-color: rgba(209, 218, 223, 0.6);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 6.3px 11px 7.9px;
+  	box-sizing: border-box;
+  	gap: 9.4px;
+}
+.nombre-completo-parent {
+  	width: 263.8px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6.4px;
+}
+.barra-contraseas {
+  	align-self: stretch;
+  	height: 37.1px;
+  	position: relative;
+  	border-radius: 6.4px;
+  	border: 1.3px solid rgba(25, 60, 118, 0.6);
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.laura-martnez {
+  	position: absolute;
+  	top: 8.96px;
+  	left: 7.68px;
+}
+.tipo-de-documento {
+  	width: 263.8px;
+  	position: relative;
+  	display: inline-block;
+}
+.barra-contraseas2 {
+  	width: 263.8px;
+  	height: 37.1px;
+  	position: relative;
+  	border-radius: 6.4px;
+  	border: 1.3px solid rgba(25, 60, 118, 0.6);
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.group-container {
+  	width: 105px;
+  	height: 49.9px;
+  	display: grid;
+  	box-sizing: border-box;
+  	grid-template-columns: 1fr;
+  	grid-template-rows: 1fr;
+}
+.estado-parent {
+  	position: relative;
+  	grid-column: 1;
+  	grid-row: 1;
+}
+.estado2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0.23px;
+  	display: inline-block;
+  	width: 38.3px;
+  	height: 16.5px;
+}
+.activo {
+  	position: absolute;
+  	width: 35.8px;
+  	top: 27.9px;
+  	left: 69.23px;
+  	color: #242827;
+  	display: inline-block;
+  	height: 16.5px;
+}
+.estado3 {
+  	position: absolute;
+  	width: calc(100% - 61.1px);
+  	top: 22.83px;
+  	right: 61.1px;
+  	left: 0px;
+  	border-radius: 14.41px;
+  	background-color: rgba(41, 98, 217, 0.9);
+  	height: 27.1px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 3.8px;
+  	box-sizing: border-box;
+}
+.estado-child {
+  	height: 19.2px;
+  	width: 19.2px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #fff;
+}
+.correo-electrnico-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6.4px;
+}
+.barra-contraseas7 {
+  	width: 650px;
+  	height: 38px;
+  	position: relative;
+  	border-radius: 6.4px;
+  	border: 1.3px solid rgba(25, 60, 118, 0.6);
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.comprasempresadeltacom {
+  	position: absolute;
+  	top: 8.96px;
+  	left: 7.68px;
+  	text-decoration: underline;
+  	color: inherit;
+}
+.resumen-de-clientes-inner {
+  	border-radius: 15px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 20px;
+}
+.group-div {
+  	width: 1011px;
+  	height: 137.8px;
+  	position: relative;
+}
+.frame-wrapper2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1011px;
+  	height: 37px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+}
+.cliente-desde-15-ene-2025-parent {
+  	position: absolute;
+  	top: 40.03px;
+  	left: 0px;
+  	width: 911.1px;
+  	height: 97.7px;
+  	font-size: 9.3px;
+  	color: #626873;
+}
+.cliente-desde-15-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 150.01%;
+  	display: flex;
+  	align-items: center;
+  	width: 363.8px;
+  	height: 42.4px;
+}
+.cliente-desde-15-container2 {
+  	width: 100%;
+}
+.cliente-desde {
+  	line-height: 150.01%;
+}
+.ultimo-acceso-12-container {
+  	position: absolute;
+  	top: 55.39px;
+  	left: 0px;
+  	line-height: 150.01%;
+  	display: flex;
+  	align-items: center;
+  	width: 258.9px;
+  	height: 42.4px;
+}
+.sep-2026- {
+  	font-size: 12px;
+  	font-weight: 500;
+  	line-height: 150.01%;
+}
+.fecha-de-la-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 406.37px;
+  	line-height: 150.01%;
+  	display: flex;
+  	align-items: center;
+  	width: 504.7px;
+  	height: 42.4px;
+}
+.fecha-de-registro-container {
+  	position: absolute;
+  	top: 55.39px;
+  	left: 406.37px;
+  	line-height: 150.01%;
+  	display: flex;
+  	align-items: center;
+  	width: 255.6px;
+  	height: 42.4px;
+}
+.cambiar-la-contrasea {
+  	border-radius: 15px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 20px;
+  	gap: 7px;
+}
+.cambiar-la-contrasea-inner {
+  	width: 1011px;
+  	height: 37px;
+  	position: relative;
+}
+.frame-wrapper3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1011px;
+  	height: 37px;
+  	display: flex;
+  	align-items: center;
+}
+.etiqueta-frame {
+  	width: 217px;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px;
+  	box-sizing: border-box;
+}
+.barra-contraseas-wrapper {
+  	width: 939px;
+  	height: 171px;
+  	position: relative;
+  	font-size: 8.83px;
+  	color: #626873;
+}
+.barra-contraseas9 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5px;
+  	border: 1px solid rgba(25, 60, 118, 0.6);
+  	box-sizing: border-box;
+  	width: 939px;
+  	height: 171px;
+  	overflow: hidden;
+}
+.aade-una-nota {
+  	position: absolute;
+  	top: 7px;
+  	left: 6px;
+}
+

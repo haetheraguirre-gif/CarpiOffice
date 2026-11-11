@@ -1,0 +1,1052 @@
+.carpioffice-mis-cotizaciones {
+  	width: 100%;
+  	height: 904px;
+  	position: relative;
+  	background-color: #f5f7f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 873.85px;
+  	text-align: left;
+  	font-size: 13px;
+  	color: #8b908d;
+  	font-family: 'Roboto Condensed';
+}
+.barra-cliente {
+  	height: 912px;
+  	width: 254px;
+  	position: relative;
+  	flex-shrink: 0;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.vendedor-barra-de-navegacin {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #074749;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.cotizaciones {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+  	cursor: pointer;
+}
+.shopping-bag-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+  	object-fit: cover;
+}
+.icono-de-navegacin {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.rea-de-cliente {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.encabezado-cliente {
+  	width: 1205px;
+  	height: 64px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 24px;
+  	gap: 16px;
+}
+.bsqueda {
+  	height: 38px;
+  	flex: 1;
+  	border-radius: 25px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	box-sizing: border-box;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta9 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta10 {
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.contenido-de-cotizaciones {
+  	align-self: stretch;
+  	height: 727px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 24px;
+  	box-sizing: border-box;
+  	font-size: 22px;
+  	color: #686d6b;
+}
+.listado-y-ayuda {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.presentacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2px;
+  	color: #242827;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.empresa {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.indicadores {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 16.52px;
+  	color: #000;
+}
+.tablitas {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+}
+.resumen-de-cotizaciones-parent {
+  	height: 98px;
+  	width: 1157px;
+  	position: relative;
+}
+.resumen-de-cotizaciones {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	width: 275px;
+  	height: 98px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 14px 16px;
+  	gap: 10px;
+}
+.purchase-order-icon {
+  	height: 66.7px;
+  	width: 60px;
+  	position: relative;
+  	object-fit: cover;
+}
+.etiqueta-parent {
+  	height: 54.8px;
+  	width: 111px;
+  	position: relative;
+}
+.etiqueta11 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.etiqueta12 {
+  	position: absolute;
+  	top: 17.79px;
+  	left: 0px;
+  	font-size: 30.49px;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.resumen-de-cotizaciones2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 294px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	width: 275px;
+  	height: 98px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 14px 16px;
+  	gap: 10px;
+}
+.wallet-icon {
+  	height: 66px;
+  	width: 60px;
+  	position: relative;
+  	object-fit: cover;
+}
+.etiqueta-group {
+  	height: 54.8px;
+  	width: 146px;
+  	position: relative;
+}
+.resumen-de-cotizaciones3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 588px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	width: 275px;
+  	height: 98px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 14px 16px;
+  	gap: 10px;
+}
+.check-mark-icon {
+  	height: 66px;
+  	width: 60px;
+  	position: relative;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.etiqueta-container {
+  	height: 72.4px;
+  	width: 144px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.etiqueta16 {
+  	position: absolute;
+  	top: 52.39px;
+  	left: 0.5px;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.resumen-de-cotizaciones4 {
+  	position: absolute;
+  	top: 0px;
+  	left: 882px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	width: 275px;
+  	height: 98px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 14px 16px;
+  	gap: 10px;
+}
+.group-div {
+  	height: 54.8px;
+  	width: 98px;
+  	position: relative;
+}
+.listado-de-cotizaciones {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 16px;
+  	font-size: 13px;
+}
+.bsqueda-y-filtros {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.buscar-cotizaciones {
+  	height: 36px;
+  	width: 280px;
+  	border-radius: 6px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 8px;
+  	color: #8b908d;
+}
+.search-icon2 {
+  	height: 15px;
+  	width: 15px;
+  	position: relative;
+}
+.estados-de-cotizacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	text-align: center;
+}
+.filtro-de-estado {
+  	height: 32px;
+  	width: 80px;
+  	border-radius: 6px;
+  	background-color: #16896c;
+  	border: 1px solid #16896c;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 10px;
+  	color: #fff;
+}
+.primary-button {
+  	flex: 1;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.filtro-de-estado2 {
+  	height: 32px;
+  	width: 104px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 10px;
+}
+.primary-button2 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 122%;
+}
+.filtro-de-estado3 {
+  	height: 32px;
+  	width: 106px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 10px;
+}
+.primary-button3 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 122%;
+  	white-space: pre-wrap;
+}
+.filtro-de-estado4 {
+  	height: 32px;
+  	width: 96px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 10px;
+}
+.orden-de-resultados {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	font-size: 12px;
+}
+.chevron-down-icon {
+  	height: 14px;
+  	width: 14px;
+  	position: relative;
+}
+.tabla-de-cotizaciones {
+  	width: 1125px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	color: #242827;
+}
+.encabezados {
+  	height: 34px;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 10px;
+  	gap: 120px;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.encabezado-de-columna-wrapper {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.encabezado-de-columna {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.encabezado-de-columna4 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	text-align: right;
+}
+.cotizacin {
+  	align-self: stretch;
+  	height: 62px;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 40px;
+}
+.dato-de-cotizacin {
+  	width: 112px;
+  	position: relative;
+  	line-height: 122%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-cotizacin2 {
+  	width: 100px;
+  	position: relative;
+  	line-height: 122%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-cotizacin4 {
+  	width: 120px;
+  	position: relative;
+  	line-height: 122%;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado {
+  	width: 104px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 11px;
+  	color: #854d0e;
+}
+.etiqueta-de-estado {
+  	border-radius: 20px;
+  	background-color: #fef9c3;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+}
+.estado-de-cotizacin {
+  	position: relative;
+  	line-height: 122%;
+}
+.consultar-cotizacin {
+  	height: 28px;
+  	width: 124px;
+  	position: relative;
+  	font-size: 11px;
+  	color: #16896c;
+}
+.consultar-cotizacin-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid rgba(22, 137, 108, 0.4);
+  	box-sizing: border-box;
+}
+.ver-detalles {
+  	position: absolute;
+  	top: 21.74%;
+  	left: 29.27%;
+}
+.estado3 {
+  	width: 104px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 11px;
+  	color: #166534;
+}
+.etiqueta-de-estado3 {
+  	border-radius: 20px;
+  	background-color: #dcfce7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+}
+.estado4 {
+  	width: 104px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 11px;
+  	color: #991b1b;
+}
+.etiqueta-de-estado4 {
+  	border-radius: 20px;
+  	background-color: #fee2e2;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+}
+.estado5 {
+  	width: 104px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 11px;
+  	color: #59616a;
+}
+.etiqueta-de-estado5 {
+  	border-radius: 20px;
+  	background-color: #eef0f2;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+}
+.pie-del-listado {
+  	align-self: stretch;
+  	height: 28px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 12px;
+}
+.paginacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	color: #fff;
+}
+.pgina-actual {
+  	height: 28px;
+  	width: 28px;
+  	border-radius: 6px;
+  	background-color: #16896c;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.ayuda-comercial {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	font-size: 12px;
+}
+.acceso-a-soporte {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: flex-end;
+  	color: #16896c;
+}
+.rea-de-cliente2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+.encabezado-cliente2 {
+  	width: 48px;
+  	height: 64px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+.bsqueda2 {
+  	height: 38px;
+  	flex: 1;
+  	border-radius: 25px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	box-sizing: border-box;
+  	gap: 9px;
+  	flex-shrink: 0;
+}
+.search-icon3 {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.etiqueta20 {
+  	position: relative;
+  	line-height: 122%;
+  	flex-shrink: 0;
+}
+.bell-icon2 {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.cuenta-de-administrador2 {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	flex-shrink: 0;
+  	color: #242827;
+}
+.contenido-de-cotizaciones2 {
+  	width: 48px;
+  	max-width: 48px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 24px;
+  	box-sizing: border-box;
+  	gap: 16px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #242827;
+}
+.presentacin2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2px;
+}
+.indicadores2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 12px;
+  	font-size: 13px;
+  	color: #686d6b;
+}
+.resumen-de-cotizaciones5 {
+  	align-self: stretch;
+  	flex: 1;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 14px 16px;
+  	gap: 6px;
+  	flex-shrink: 0;
+}
+.concepto {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+  	flex-shrink: 0;
+}
+.etiqueta23 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	flex-shrink: 0;
+}
+.valor-de-resumen {
+  	height: 33px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	font-size: 28px;
+  	color: #242827;
+}
+.detalle {
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	flex-shrink: 0;
+}
+.clock-3-icon {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.valor-de-resumen4 {
+  	height: 33px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	font-size: 20px;
+  	color: #242827;
+}
+.listado-y-ayuda2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 13px;
+  	color: #686d6b;
+}
+.listado-de-cotizaciones2 {
+  	width: 32px;
+  	max-width: 32px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 16px;
+  	flex-shrink: 0;
+}
+.bsqueda-y-filtros2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.estados-de-cotizacin2 {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	flex-shrink: 0;
+  	text-align: center;
+}
+.filtro-de-estado7 {
+  	height: 32px;
+  	width: 100px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 10px;
+}
+.orden-de-resultados2 {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	flex-shrink: 0;
+  	font-size: 12px;
+}
+.tabla-de-cotizaciones2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	color: #242827;
+}
+.encabezados2 {
+  	align-self: stretch;
+  	height: 34px;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.encabezado-de-columna7 {
+  	width: 112px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.encabezado-de-columna8 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	flex-shrink: 0;
+}
+.encabezado-de-columna9 {
+  	width: 100px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.encabezado-de-columna11 {
+  	width: 120px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.encabezado-de-columna12 {
+  	width: 104px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.encabezado-de-columna13 {
+  	width: 124px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.cotizacin6 {
+  	align-self: stretch;
+  	height: 62px;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+.proyecto {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	flex-shrink: 0;
+}
+.nombre-de-proyecto {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.productos-y-sede {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.consultar-cotizacin6 {
+  	height: 28px;
+  	width: 124px;
+  	position: relative;
+  	flex-shrink: 0;
+  	font-size: 11px;
+  	color: #16896c;
+}
+.pie-del-listado2 {
+  	align-self: stretch;
+  	height: 28px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+  	font-size: 12px;
+}
+.paginacin2 {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	flex-shrink: 0;
+  	color: #fff;
+}
+.ayuda-comercial2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	flex-shrink: 0;
+  	font-size: 12px;
+}
+.acceso-a-soporte2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: flex-end;
+  	flex-shrink: 0;
+  	color: #16896c;
+}
+

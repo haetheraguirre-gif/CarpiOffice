@@ -1,0 +1,519 @@
+.carpioffice-mis-pedidos {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f5f7f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 802px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.barra-cliente {
+  	height: 810px;
+  	width: 254px;
+  	position: relative;
+}
+.vendedor-barra-de-navegacin {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #074749;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.cotizaciones {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+  	cursor: pointer;
+}
+.shopping-bag-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+  	object-fit: cover;
+}
+.icono-de-navegacin {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.contenido-principal-cliente {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	min-height: 802px;
+  	font-size: 13px;
+  	color: #8b908d;
+  	font-family: 'Roboto Condensed';
+}
+.cabecera-cliente {
+  	align-self: stretch;
+  	height: 64px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 24px;
+  	gap: 20px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 234px;
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.etiqueta8 {
+  	position: relative;
+  	line-height: 122%;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta9 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta10 {
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.rea-de-pedidos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 24px;
+  	gap: 16px;
+  	font-size: 12px;
+  	color: #242827;
+}
+.ruta-de-navegacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	color: #16896c;
+}
+.chevron-right-icon {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+}
+.pgina-actual {
+  	position: relative;
+  	color: #686d6b;
+}
+.encabezado-de-pgina {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+  	font-size: 22px;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.descripcin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.resumen-de-pedidos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 12px;
+  	font-size: 13px;
+  	color: #686d6b;
+}
+.resumen-por-estado {
+  	height: 78px;
+  	flex: 1;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 12px 16px;
+  	gap: 6px;
+}
+.cantidad {
+  	position: relative;
+  	font-size: 24px;
+  	line-height: 110%;
+  	color: #242827;
+}
+.listado-de-pedidos {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.cabecera-del-listado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 16px 16px 0px;
+  	gap: 20px;
+  	font-size: 14px;
+}
+.ttulo-del-listado {
+  	position: relative;
+  	font-weight: 600;
+}
+.cantidad-de-resultados {
+  	position: relative;
+  	font-size: 12px;
+  	color: #686d6b;
+}
+.bsqueda-y-filtros {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-end;
+  	padding: 16px;
+  	gap: 12px;
+  	color: #686d6b;
+}
+.filtro-de-pedidos {
+  	width: 340px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+}
+.campo {
+  	align-self: stretch;
+  	height: 36px;
+  	border-radius: 6px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 9px;
+  	font-size: 13px;
+  	color: #8b908d;
+}
+.valor {
+  	flex: 1;
+  	position: relative;
+}
+.filtro-de-pedidos2 {
+  	width: 220px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+}
+.campo2 {
+  	align-self: stretch;
+  	height: 36px;
+  	border-radius: 6px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 9px;
+  	font-size: 13px;
+  	color: #242827;
+}
+.chevron-down-icon {
+  	height: 14px;
+  	width: 14px;
+  	position: relative;
+}
+.aplicar-filtros {
+  	height: 36px;
+  	width: 114px;
+  	border-radius: 6px;
+  	background-color: #16896c;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 12px;
+  	box-sizing: border-box;
+  	font-size: 13px;
+  	color: #f5f7f8;
+}
+.primary-button {
+  	position: relative;
+  	font-weight: 500;
+}
+.encabezados-de-tabla {
+  	align-self: stretch;
+  	height: 36px;
+  	background-color: #f5f7f8;
+  	border-top: 1px solid #e5e8e7;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.pedido {
+  	flex: 1;
+  	position: relative;
+  	font-weight: 500;
+}
+.orden-por-fecha {
+  	width: 250px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+}
+.estado5 {
+  	width: 270px;
+  	position: relative;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.acciones {
+  	width: 112px;
+  	position: relative;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.pedido2 {
+  	align-self: stretch;
+  	height: 60px;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+}
+.nmero-de-pedido {
+  	flex: 1;
+  	position: relative;
+  	font-size: 13px;
+  	font-weight: 500;
+}
+.fecha2 {
+  	width: 250px;
+  	position: relative;
+  	color: #686d6b;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado-del-pedido {
+  	width: 270px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 11px;
+  	color: #854d0e;
+}
+.indicador-de-estado {
+  	border-radius: 20px;
+  	background-color: #fef9c3;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+}
+.ver-detalle-del-pedido {
+  	height: 28px;
+  	width: 112px;
+  	position: relative;
+  	text-align: center;
+  	color: #16896c;
+}
+.ver-detalle-del-pedido-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+}
+.ver-detalles {
+  	position: absolute;
+  	top: 21.74%;
+  	left: 24.8%;
+}
+.estado-del-pedido2 {
+  	width: 270px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 11px;
+  	color: #065f46;
+}
+.indicador-de-estado2 {
+  	border-radius: 20px;
+  	background-color: #d1fae5;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+}
+.estado-del-pedido3 {
+  	width: 270px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 11px;
+  	color: #166534;
+}
+.indicador-de-estado3 {
+  	border-radius: 20px;
+  	background-color: #dcfce7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+}
+.resumen-del-listado {
+  	align-self: stretch;
+  	height: 48px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 16px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	color: #686d6b;
+}
+

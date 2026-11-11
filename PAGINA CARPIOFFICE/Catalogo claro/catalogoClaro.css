@@ -1,0 +1,1265 @@
+.carpioffice-catlogo-luminos {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fffcf9;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	min-height: 1500px;
+  	text-align: left;
+  	font-size: 13px;
+  	color: #334149;
+  	font-family: Poppins;
+}
+.navegacin-principal {
+  	align-self: stretch;
+  	height: 119px;
+  	position: relative;
+  	font-size: 14.5px;
+  	color: #000;
+}
+.navegacin-principal-inner {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #fff;
+  	overflow: hidden;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 119px;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #0f5e4a;
+  	width: 1440px;
+  	height: 23.4px;
+}
+.image-31-parent {
+  	position: absolute;
+  	top: 23px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 96px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 29.7px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.image-31-icon {
+  	height: 61.5px;
+  	width: 134.2px;
+  	position: relative;
+  	object-fit: cover;
+}
+.items {
+  	display: flex;
+  	align-items: center;
+  	gap: 28px;
+}
+.inicio {
+  	position: relative;
+  	line-height: 150%;
+  	cursor: pointer;
+}
+.catalogo {
+  	position: relative;
+  	line-height: 150%;
+  	color: #0f5e4a;
+  	cursor: pointer;
+}
+.proyectos {
+  	position: relative;
+  	line-height: 150%;
+}
+.iniciar-sesion-parent {
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	gap: 22.3px;
+  	font-size: 11.66px;
+}
+.iniciar-sesion {
+  	height: 19.3px;
+  	width: 86.3px;
+  	position: relative;
+  	line-height: 150%;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+  	cursor: pointer;
+}
+.account-male-icon {
+  	height: 43.1px;
+  	width: 43.1px;
+  	position: relative;
+  	object-fit: cover;
+}
+.diseo-calidad-funcionalid-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 40px;
+  	box-sizing: border-box;
+  	gap: 429px;
+  	font-size: 11.66px;
+  	color: #fff;
+}
+.presentacin-del-catlogo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 30px 56px 36px;
+  	gap: 32px;
+  	text-align: center;
+  	font-size: 12px;
+}
+.ruta-de-navegacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	text-align: left;
+  	color: #4c626d;
+}
+.separador {
+  	position: relative;
+  	color: #668391;
+}
+.catlogo {
+  	position: relative;
+  	font-weight: 600;
+  	color: #0f5e4a;
+}
+.navegacin-por-familias {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	padding: 4px 40px 10px;
+  	gap: 20px;
+  	font-size: 15px;
+}
+.familia-de-mobiliario {
+  	width: 216px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 17px;
+}
+.icono-circular {
+  	width: 126px;
+  	height: 126px;
+  	border-radius: 100px;
+  	background-color: #e7f2ea;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.armchair-icon {
+  	width: 49px;
+  	height: 49px;
+  	position: relative;
+}
+.familia {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 500;
+}
+.icono-circular2 {
+  	width: 126px;
+  	height: 126px;
+  	border-radius: 100px;
+  	background-color: #fbe8d6;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.recepcin {
+  	width: 82.8px;
+  	height: 72px;
+  	background-color: rgba(0, 0, 0, 0);
+  	display: flex;
+  	align-items: center;
+  	padding: 14.4px 18px;
+  	box-sizing: border-box;
+}
+.recepcin-inner {
+  	height: 39.6px;
+  	flex: 1;
+  	position: relative;
+}
+.group-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 43.2px;
+  	height: 39.6px;
+  	object-fit: cover;
+}
+.icono-circular3 {
+  	width: 126px;
+  	height: 126px;
+  	border-radius: 100px;
+  	background-color: #eeeafa;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.escritorio {
+  	width: 81px;
+  	height: 72px;
+  	background-color: rgba(0, 0, 0, 0);
+  	display: flex;
+  	align-items: center;
+  	padding: 14.4px 18px 12.6px;
+  	box-sizing: border-box;
+}
+.escritorio-inner {
+  	height: 41.4px;
+  	width: 45px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.group-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 22.5px);
+  	width: 45px;
+  	height: 41.4px;
+  	object-fit: cover;
+}
+.icono-circular4 {
+  	width: 126px;
+  	height: 126px;
+  	border-radius: 100px;
+  	background-color: #f8f0cb;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.mesa-de-conferencias {
+  	width: 82.8px;
+  	height: 75.6px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.mesa-de-conferencias-inner {
+  	border-radius: 14.4px;
+  	background-color: rgba(0, 0, 0, 0);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12.6px 18px 14.4px;
+}
+.frame-child {
+  	height: 45px;
+  	width: 45px;
+  	object-fit: cover;
+}
+.icono-circular5 {
+  	width: 126px;
+  	height: 126px;
+  	border-radius: 100px;
+  	background-color: #e5f0f5;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.lockers {
+  	width: 81px;
+  	height: 72px;
+  	background-color: rgba(0, 0, 0, 0);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 14.4px 18px 12.6px;
+  	box-sizing: border-box;
+}
+.lockers-inner {
+  	height: 45px;
+  	width: 45px;
+  	position: relative;
+}
+.frame-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 22.5px);
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.encabezado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 0px 0px 10px;
+  	gap: 12px;
+  	font-size: 39.06px;
+}
+.ttulo-del-catlogo {
+  	align-self: stretch;
+  	position: relative;
+}
+.descripcin-del-catlogo {
+  	width: 1050px;
+  	position: relative;
+  	font-size: 16px;
+  	color: #4c626d;
+  	display: inline-block;
+}
+.filtros-del-catlogo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 0px 56px;
+}
+.panel-de-filtros {
+  	align-self: stretch;
+  	border-top: 1px solid #dfe8e2;
+  	border-bottom: 1px solid #dfe8e2;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 24px 0px;
+  	gap: 25px;
+}
+.categoras {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.etiqueta-de-filtro {
+  	position: relative;
+  	font-size: 12px;
+  	font-weight: 600;
+}
+.categora {
+  	border-radius: 100px;
+  	background-color: #0f5e4a;
+  	border: 1px solid #0f5e4a;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 11px 18px;
+  	gap: 12px;
+  	color: #fff;
+}
+.cantidad {
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.15);
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 2px 7px;
+  	font-size: 10px;
+}
+.categora3 {
+  	border-radius: 100px;
+  	background-color: #fff;
+  	border: 1px solid #dfe8e2;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 11px 18px;
+  	gap: 12px;
+}
+.cantidad3 {
+  	border-radius: 20px;
+  	background-color: #f5f7f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 2px 7px;
+  	font-size: 10px;
+  	color: #4c626d;
+}
+.opciones-de-filtrado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 40px;
+  	font-size: 12px;
+}
+.espacios-recomendados {
+  	width: 430px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 12px;
+}
+.espacios {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	font-size: 14px;
+  	color: #4c626d;
+}
+.estaciones-de-trabajo {
+  	height: 40px;
+  	border-radius: 8px;
+  	background-color: #f5f7f8;
+  	border: 1px solid rgba(51, 65, 73, 0.4);
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	padding: 8px 10px 7px;
+}
+.estaciones-de-trabajo-inner {
+  	height: 23px;
+  	width: 184px;
+  	position: relative;
+}
+.monitor-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 92px);
+  	width: 184px;
+  	height: 23px;
+  	display: flex;
+  	align-items: center;
+  	gap: 5px;
+}
+.monitor-icon {
+  	height: 25px;
+  	width: 25px;
+  	position: relative;
+  	object-fit: cover;
+}
+.estaciones-de-trabajo-wrapper {
+  	height: 21px;
+  	width: 154px;
+  	position: relative;
+}
+.estaciones-de-trabajo2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 600;
+}
+.oficinas-corporativas {
+  	height: 40px;
+  	width: 194px;
+  	border-radius: 8px;
+  	background-color: #f5f7f8;
+  	border: 1px solid rgba(51, 65, 73, 0.4);
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 10px 7px;
+}
+.oficinas-corporativas-inner {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.office-parent {
+  	display: flex;
+  	align-items: center;
+  	gap: 5px;
+}
+.oficinas-corporativas-wrapper {
+  	height: 21px;
+  	width: 156px;
+  	position: relative;
+}
+.rango-de-precio {
+  	width: 302px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.selector-de-precio {
+  	align-self: stretch;
+  	height: 4px;
+  	border-radius: 4px;
+  	background-color: #dfe8e2;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	position: relative;
+  	isolation: isolate;
+}
+.rango-seleccionado {
+  	height: 4px;
+  	width: 202px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 40px;
+  	background-color: #0f5e4a;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.precio-mnimo {
+  	height: 14px;
+  	width: 14px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: -5px;
+  	left: 34px;
+  	border-radius: 50%;
+  	background-color: #0f5e4a;
+  	border: 2px solid #fff;
+  	box-sizing: border-box;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+.precio-mximo {
+  	height: 14px;
+  	width: 14px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: -5px;
+  	left: 236px;
+  	border-radius: 50%;
+  	background-color: #0f5e4a;
+  	border: 2px solid #fff;
+  	box-sizing: border-box;
+  	z-index: 2;
+  	flex-shrink: 0;
+}
+.lmites-de-precio {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 20px;
+  	color: #4c626d;
+}
+.disponibilidad {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 12px;
+}
+.estados-de-disponibilidad {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 13px;
+  	font-size: 11px;
+  	color: #4c626d;
+}
+.opcin-de-disponibilidad {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7px;
+}
+.casilla {
+  	width: 18px;
+  	height: 18px;
+  	border-radius: 4px;
+  	border: 1.5px solid #0f5e4a;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.seleccin {
+  	height: 10px;
+  	width: 10px;
+  	position: relative;
+  	border-radius: 2px;
+  	background-color: #0f5e4a;
+}
+.productos-del-catlogo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 26px 56px 64px;
+  	gap: 32px;
+  	color: #4c626d;
+}
+.resultados {
+  	position: relative;
+}
+.span {
+  	font-weight: 600;
+  	color: #0f5e4a;
+}
+.orden-de-productos {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	font-size: 12px;
+}
+.mayor-relevancia {
+  	border-radius: 100px;
+  	background-color: #fff;
+  	border: 1px solid #dfe8e2;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 10px 16px;
+  	gap: 12px;
+  	color: #334149;
+}
+.orden-seleccionado {
+  	position: relative;
+  	font-weight: 500;
+}
+.chevron-down-icon {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+}
+.coleccin-de-productos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 52px;
+  	font-size: 11px;
+}
+.fila-de-productos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+  	font-size: 10px;
+  	color: #fff;
+}
+.producto {
+  	align-self: stretch;
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+  	cursor: pointer;
+}
+.fotografa-del-producto {
+  	align-self: stretch;
+  	height: 292px;
+  	border-radius: 12px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+  	position: relative;
+  	isolation: isolate;
+}
+.producto-icon {
+  	align-self: stretch;
+  	flex: 1;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+  	z-index: 0;
+}
+.destacado {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 14px;
+  	left: 14px;
+  	border-radius: 100px;
+  	background-color: #0f5e4a;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 6px 12px;
+  	z-index: 1;
+}
+.informacin-del-producto {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+  	font-size: 11px;
+  	color: #4c626d;
+}
+.categora-del-producto {
+  	align-self: stretch;
+  	position: relative;
+  	text-transform: uppercase;
+  	font-weight: 500;
+}
+.nombre-del-producto {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 20px;
+  	line-height: 140%;
+  	font-weight: 600;
+  	color: #334149;
+  	display: inline-block;
+  	min-height: 58px;
+}
+.descripcin-del-producto {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 160%;
+  	display: inline-block;
+  	min-height: 67px;
+}
+.precio-y-compra {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 25px;
+  	color: #0f5e4a;
+}
+.precio-y-disponibilidad {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.precio {
+  	position: relative;
+  	font-weight: 600;
+}
+.disponibilidad5 {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	font-size: 11px;
+  	color: #4c626d;
+}
+.en-stock {
+  	height: 5px;
+  	width: 5px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #1db48e;
+}
+.acciones-de-compra {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 13px;
+}
+.aadir-producto {
+  	border-radius: 100px;
+  	border: 1px solid #0f5e4a;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 10px 22px;
+}
+.carrito {
+  	height: 25px;
+  	width: 25px;
+  	position: relative;
+}
+.carrito-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid rgba(2, 84, 45, 0.4);
+  	box-sizing: border-box;
+}
+.add-shopping-cart {
+  	position: absolute;
+  	height: 60.8%;
+  	width: 60.8%;
+  	top: 17.39%;
+  	right: 17.46%;
+  	bottom: 21.81%;
+  	left: 21.74%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.producto2 {
+  	align-self: stretch;
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 11px;
+  	color: #4c626d;
+}
+.fotografa-del-producto2 {
+  	align-self: stretch;
+  	height: 292px;
+  	border-radius: 12px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.informacin-del-producto2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.producto3 {
+  	align-self: stretch;
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+}
+.fila-de-productos2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.producto5 {
+  	align-self: stretch;
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 18px;
+  	font-size: 10px;
+  	color: #fff;
+}
+.paginacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 0px 12px;
+  	gap: 10px;
+  	color: #334149;
+}
+.pgina {
+  	height: 42px;
+  	border-radius: 100px;
+  	background-color: #fff;
+  	border: 1px solid #dfe8e2;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 16px;
+  	min-width: 42px;
+}
+.pgina3 {
+  	height: 42px;
+  	border-radius: 100px;
+  	background-color: #0f5e4a;
+  	border: 1px solid #0f5e4a;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 16px;
+  	min-width: 42px;
+  	color: #fff;
+}
+.pie-de-pgina {
+  	align-self: stretch;
+  	height: 400px;
+  	position: relative;
+  	font-size: 16px;
+  	color: #fff;
+  	font-family: Inter;
+}
+.pie-de-pgina-child {
+  	position: absolute;
+  	height: 96.1%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 3.9%;
+  	left: 0%;
+  	background-color: #013c2c;
+}
+.image-32-icon {
+  	position: absolute;
+  	width: 12.97%;
+  	top: 225px;
+  	right: 84.05%;
+  	left: 2.97%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 50.6px;
+  	object-fit: cover;
+}
+.carpioffice-todos-los {
+  	position: absolute;
+  	height: 13.4%;
+  	width: 490.4px;
+  	top: 86.59%;
+  	left: 35.41%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.pie-de-pgina-item {
+  	position: absolute;
+  	height: 0.25%;
+  	width: 11.78%;
+  	top: 20.55%;
+  	right: 47.44%;
+  	bottom: 79.2%;
+  	left: 40.78%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	transform:  rotate(90.7deg);
+  	transform-origin: 0 0;
+}
+.pie-de-pgina-inner {
+  	position: absolute;
+  	height: 0.25%;
+  	width: 11.78%;
+  	top: 20.55%;
+  	right: 32.37%;
+  	bottom: 79.2%;
+  	left: 55.85%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	transform:  rotate(90.7deg);
+  	transform-origin: 0 0;
+}
+.line-div {
+  	position: absolute;
+  	height: 0.25%;
+  	width: 11.78%;
+  	top: 20.55%;
+  	right: 12.78%;
+  	bottom: 79.2%;
+  	left: 75.44%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	transform:  rotate(90.7deg);
+  	transform-origin: 0 0;
+}
+.soluciones-de-mobiliario {
+  	position: absolute;
+  	height: 21.23%;
+  	width: 249.1px;
+  	top: 32.96%;
+  	left: 3.72%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.productos {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 27.97%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.silas-escritorios-mesas {
+  	position: absolute;
+  	height: 39.67%;
+  	width: 192.6px;
+  	top: 23.18%;
+  	left: 27.43%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.nosotros-proyectos-servicios {
+  	position: absolute;
+  	height: 39.67%;
+  	width: 201.4px;
+  	top: 26.26%;
+  	left: 45.41%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.politicas-de-envio {
+  	position: absolute;
+  	height: 39.67%;
+  	width: 201.4px;
+  	top: 27.93%;
+  	left: 59.73%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.bogota-colombia {
+  	position: absolute;
+  	height: 39.67%;
+  	width: 298.7px;
+  	top: 31.28%;
+  	left: 77.5%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	white-space: pre-wrap;
+  	display: inline-block;
+}
+.empresa {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 45.47%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.ayuda {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 60.27%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.contactanos {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 78.65%;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.pie-de-pgina-child2 {
+  	position: absolute;
+  	height: 0.25%;
+  	width: 94.33%;
+  	top: 81.72%;
+  	right: 2.94%;
+  	bottom: 18.03%;
+  	left: 2.74%;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+}
+.capioffice-oscuro-sin-fondo-3 {
+  	position: absolute;
+  	width: 18.99%;
+  	top: 39px;
+  	right: 77.3%;
+  	left: 3.72%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 87.6px;
+  	object-fit: cover;
+}
+.carpioffice-todos-los2 {
+  	position: absolute;
+  	height: 13.4%;
+  	width: 490.4px;
+  	top: 86.59%;
+  	left: 35.41%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.soluciones-de-mobiliario2 {
+  	position: absolute;
+  	height: 21.23%;
+  	width: 249.1px;
+  	top: 23.74%;
+  	left: 77.43%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.productos2 {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 27.97%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.silas-escritorios-mesas2 {
+  	position: absolute;
+  	height: 39.67%;
+  	width: 192.6px;
+  	top: 23.18%;
+  	left: 27.43%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.nosotros-proyectos-servicios2 {
+  	position: absolute;
+  	height: 39.67%;
+  	width: 201.4px;
+  	top: 26.26%;
+  	left: 45.41%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.politicas-de-envio2 {
+  	position: absolute;
+  	height: 39.67%;
+  	width: 201.4px;
+  	top: 27.93%;
+  	left: 59.73%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.empresa2 {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 45.47%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.ayuda2 {
+  	position: absolute;
+  	height: 9.78%;
+  	width: 107px;
+  	top: 10.89%;
+  	left: 60.27%;
+  	font-size: 14px;
+  	line-height: 150%;
+  	font-family: Poppins;
+  	display: inline-block;
+}
+.capioffice-oscuro-sin-fondo-4 {
+  	position: absolute;
+  	width: 21.67%;
+  	top: 13px;
+  	right: 76.25%;
+  	left: 2.08%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 100px;
+  	object-fit: cover;
+}
+.bogota-colombia-601-123-parent {
+  	position: absolute;
+  	height: 46.93%;
+  	width: 20.95%;
+  	top: 31.56%;
+  	right: 76.06%;
+  	bottom: 21.51%;
+  	left: 2.99%;
+  	font-size: 14px;
+  	font-family: Poppins;
+}
+.bogota-colombia2 {
+  	position: absolute;
+  	height: 84.55%;
+  	width: 298.7px;
+  	top: 15.48%;
+  	left: 0.99%;
+  	line-height: 150%;
+  	white-space: pre-wrap;
+  	display: inline-block;
+}
+.maria-camila-lopez {
+  	position: absolute;
+  	height: 17.26%;
+  	width: 160px;
+  	top: 0%;
+  	left: 0%;
+  	line-height: 150%;
+  	display: inline-block;
+}
+

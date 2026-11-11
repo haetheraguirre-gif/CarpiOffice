@@ -1,0 +1,196 @@
+.carpioffice-recuperar-contra {
+  	width: 100%;
+  	position: relative;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	min-height: 794px;
+  	text-align: left;
+  	font-size: 12px;
+  	color: #0f5e4a;
+  	font-family: Poppins;
+}
+.contenido-de-recuperacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 48px 74px;
+  	box-sizing: border-box;
+  	gap: 0px;
+  	min-height: 794px;
+}
+.panel-de-recuperacin {
+  	width: 456px;
+  	border-radius: 24px;
+  	background-color: rgba(255, 255, 255, 0.8);
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 40px 42px;
+  	box-sizing: border-box;
+  	gap: 28px;
+}
+.encabezado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 10px;
+}
+.etiqueta-de-recuperacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.acento {
+  	height: 3px;
+  	width: 30px;
+  	position: relative;
+  	border-radius: 16777200px;
+  	background-color: #1db48e;
+}
+.etiqueta {
+  	position: relative;
+  	letter-spacing: 0.7px;
+  	font-weight: 600;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 31.25px;
+  	font-weight: 600;
+  	color: #02341c;
+}
+.descripcin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	color: #668391;
+}
+.solicitud-de-recuperacin {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+  	font-size: 14px;
+  	color: #334149;
+}
+.campo-de-formulario {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.entrada {
+  	align-self: stretch;
+  	height: 52px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #d1dadf;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	gap: 12px;
+  	color: #7b8c94;
+}
+.correo-icon {
+  	height: 19px;
+  	width: 19px;
+  	position: relative;
+}
+.valor {
+  	flex: 1;
+  	position: relative;
+}
+.accin-principal {
+  	align-self: stretch;
+  	height: 52px;
+  	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  	border-radius: 10px;
+  	background-color: #0f5e4a;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 16px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+  	font-size: 16px;
+  	color: #fff;
+}
+.etiqueta-de-accin {
+  	position: relative;
+  	font-weight: 600;
+}
+.instruccin {
+  	align-self: stretch;
+  	position: relative;
+  	color: #4c626d;
+}
+.volver-al-inicio-de-sesin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 8px;
+  	font-size: 14px;
+}
+.arrow-left-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.accin-secundaria {
+  	position: relative;
+  	font-weight: 500;
+}
+.ayuda-de-acceso {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 11px;
+  	text-align: center;
+  	color: #7b8c94;
+}
+.separador {
+  	align-self: stretch;
+  	height: 1px;
+  	position: relative;
+  	background-color: #d1dadf;
+}
+.soporte {
+  	align-self: stretch;
+  	position: relative;
+}
+.contacta-a-soporte {
+  	font-weight: 600;
+  	color: #0f5e4a;
+}
+.nota-legal {
+  	width: 456px;
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 145%;
+  	color: #f5f7f8;
+  	text-align: center;
+  	display: inline-block;
+}
+

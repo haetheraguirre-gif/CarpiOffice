@@ -1,0 +1,761 @@
+.carpioffice-usuarios-con-inv {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f9f9;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 930px;
+  	text-align: left;
+  	font-size: 17px;
+  	color: #edf5ee;
+  	font-family: 'Roboto Condensed';
+}
+.men-lateral {
+  	align-self: stretch;
+  	width: 250px;
+  	background-color: #063d30;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 22px 20px 24px;
+  	box-sizing: border-box;
+  	min-height: 930px;
+}
+.carpioffice-icon {
+  	width: 175px;
+  	height: 51px;
+  	object-fit: cover;
+}
+.navegacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 1px;
+}
+.opcin-de-navegacin {
+  	align-self: stretch;
+  	height: 47px;
+  	border-radius: 5px;
+  	background-color: #063d30;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px 0px 9px;
+  	box-sizing: border-box;
+  	gap: 13px;
+}
+.icono-de-navegacin {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+  	line-height: 122%;
+}
+.opcin-de-navegacin2 {
+  	align-self: stretch;
+  	height: 47px;
+  	border-radius: 5px;
+  	background-color: #07563c;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px 0px 9px;
+  	box-sizing: border-box;
+  	gap: 13px;
+}
+.contenido-principal {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 14px;
+  	color: #8b908d;
+}
+.barra-de-herramientas {
+  	align-self: stretch;
+  	height: 72px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 0px 0px 30px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 234px;
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	width: 180px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 16px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta15 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta16 {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 122%;
+}
+.administracin-de-usuarios {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 22px 20px 24px 30px;
+  	gap: 16px;
+  	font-size: 24px;
+  	color: #242827;
+}
+.resumen-de-usuarios {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.encabezado {
+  	align-self: stretch;
+  	height: 52px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.ttulo-y-descripcin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.descripcin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 122%;
+}
+.aadir-usuario {
+  	height: 38px;
+  	width: 150px;
+  	border-radius: 5px;
+  	background-color: #16735b;
+  	border: 1px solid #16735b;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px;
+  	text-align: center;
+  	font-size: 15px;
+  	color: #fff;
+}
+.primary-button {
+  	flex: 1;
+  	position: relative;
+  	font-weight: 500;
+  	white-space: pre-wrap;
+}
+.indicadores-de-usuarios {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 13px;
+  	color: #686d6b;
+}
+.indicador {
+  	height: 64px;
+  	flex: 1;
+  	border-radius: 9px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 16px;
+  	gap: 12px;
+}
+.cifras {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2px;
+  	flex-shrink: 0;
+}
+.valor {
+  	position: relative;
+  	font-size: 23px;
+  	line-height: 122%;
+  	font-weight: 600;
+  	color: #242827;
+}
+.icono-de-indicador {
+  	height: 26px;
+  	width: 26px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.aviso-de-invitacin {
+  	align-self: stretch;
+  	height: 50px;
+  	border-radius: 5px;
+  	background-color: #edf5ee;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 8px 16px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	font-size: 14px;
+}
+.estado-de-activacin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 2px;
+}
+.confirmacin {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.condicin-de-acceso {
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.listado-de-usuarios {
+  	align-self: stretch;
+  	border-radius: 9px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 13px;
+}
+.bsqueda-y-filtros {
+  	align-self: stretch;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	font-size: 14px;
+}
+.buscar-usuarios {
+  	height: 38px;
+  	flex: 1;
+  	border-radius: 5px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 9px;
+  	color: #686d6b;
+}
+.filtro {
+  	height: 38px;
+  	width: 180px;
+  	border-radius: 5px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 12px;
+  	gap: 20px;
+}
+.chevron-down-icon {
+  	height: 14px;
+  	width: 14px;
+  	position: relative;
+}
+.exportar-listado {
+  	height: 38px;
+  	width: 118px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px;
+  	text-align: center;
+  	font-size: 15px;
+}
+.primary-button2 {
+  	flex: 1;
+  	position: relative;
+  	font-weight: 500;
+}
+.cabecera-de-tabla {
+  	align-self: stretch;
+  	height: 36px;
+  	background-color: #f8faf9;
+  	border-top: 1px solid #e5e8e7;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 16px;
+}
+.seleccionar {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	border-radius: 3px;
+  	background-color: #fff;
+  	border: 1px solid #c9d1cd;
+  	box-sizing: border-box;
+}
+.ordenar-usuarios {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 7px;
+}
+.smbolo-icon {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+}
+.etiqueta25 {
+  	width: 160px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta26 {
+  	width: 140px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta27 {
+  	width: 120px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta28 {
+  	width: 170px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta29 {
+  	width: 54px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.usuarios {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 12px;
+  	color: #387e5a;
+}
+.fila-de-usuario {
+  	align-self: stretch;
+  	height: 64px;
+  	background-color: #f5faf7;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 16px;
+  	color: #242827;
+}
+.usuario {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	color: #387e5a;
+}
+.avatar {
+  	height: 30px;
+  	width: 30px;
+  	border-radius: 16777200px;
+  	background-color: #edf5ee;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.identidad {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 1px;
+  	font-size: 14px;
+  	color: #242827;
+}
+.nombre-y-novedad {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.nueva-invitacin {
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	color: #16735b;
+}
+.correo-electrnico {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.rol {
+  	width: 160px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 122%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.rea {
+  	width: 140px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 122%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado {
+  	width: 120px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	color: #a56816;
+}
+.etiqueta-de-estado {
+  	border-radius: 4px;
+  	background-color: #faf2e7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 4px 8px;
+  	gap: 5px;
+}
+.indicador5 {
+  	height: 5px;
+  	width: 5px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #a56816;
+}
+.ltimo-acceso {
+  	width: 170px;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 122%;
+  	color: #686d6b;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.acciones-de-usuario {
+  	width: 54px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+.square-pen-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.fila-de-usuario2 {
+  	align-self: stretch;
+  	height: 64px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 16px;
+}
+.usuario2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.nombre-y-novedad2 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+}
+.rol2 {
+  	width: 160px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 122%;
+  	color: #242827;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.rea2 {
+  	width: 140px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 122%;
+  	color: #242827;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado2 {
+  	width: 120px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+}
+.etiqueta-de-estado2 {
+  	border-radius: 4px;
+  	background-color: #edf5ee;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 4px 8px;
+  	gap: 5px;
+}
+.indicador6 {
+  	height: 5px;
+  	width: 5px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #387e5a;
+}
+.fila-de-usuario6 {
+  	align-self: stretch;
+  	height: 64px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 18px;
+  	gap: 16px;
+  	color: #242827;
+}
+.estado6 {
+  	width: 120px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	color: #686d6b;
+}
+.etiqueta-de-estado6 {
+  	border-radius: 4px;
+  	background-color: #eff1f0;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 4px 8px;
+  	gap: 5px;
+}
+.indicador10 {
+  	height: 5px;
+  	width: 5px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #686d6b;
+}
+.paginacin {
+  	align-self: stretch;
+  	height: 54px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 18px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	color: #686d6b;
+}
+.controles-de-paginacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #242827;
+}
+.etiqueta44 {
+  	position: relative;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.filtro3 {
+  	height: 38px;
+  	width: 54px;
+  	border-radius: 5px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 12px;
+  	gap: 9px;
+  	font-size: 14px;
+}
+.pgina-anterior {
+  	height: 30px;
+  	width: 30px;
+  	border-radius: 5px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.chevron-left-icon {
+  	height: 15px;
+  	width: 15px;
+  	position: relative;
+}
+.pgina {
+  	height: 30px;
+  	width: 30px;
+  	border-radius: 5px;
+  	background-color: #07563c;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	color: #fff;
+}
+.pgina2 {
+  	height: 30px;
+  	width: 30px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+

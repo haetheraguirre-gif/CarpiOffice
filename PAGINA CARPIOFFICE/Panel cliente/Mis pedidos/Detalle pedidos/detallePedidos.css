@@ -1,0 +1,793 @@
+.carpioffice-detalle-de-pedid {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f5f7f8;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 900px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.barra-cliente {
+  	height: 912px;
+  	width: 254px;
+  	position: relative;
+}
+.vendedor-barra-de-navegacin {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #074749;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.cotizaciones {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+  	cursor: pointer;
+}
+.shopping-bag-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+  	object-fit: cover;
+}
+.icono-de-navegacin {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.contenido-principal-cliente {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	min-height: 900px;
+  	font-size: 13px;
+  	color: #8b908d;
+  	font-family: 'Roboto Condensed';
+}
+.cabecera-cliente {
+  	align-self: stretch;
+  	height: 64px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 24px;
+  	gap: 20px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 234px;
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta10 {
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.detalle-del-pedido {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 24px;
+  	gap: 16px;
+  	font-size: 12px;
+  	color: #16896c;
+}
+.encabezado-del-pedido {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.ruta-de-navegacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+}
+.chevron-right-icon {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+}
+.pgina-actual {
+  	position: relative;
+  	color: #686d6b;
+}
+.ttulo-y-regreso {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 22px;
+  	color: #242827;
+}
+.identificacin-del-pedido {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.pedido-y-estado {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+}
+.ttulo {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.indicador-de-estado {
+  	border-radius: 20px;
+  	background-color: #fef9c3;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+  	font-size: 11px;
+  	color: #854d0e;
+}
+.estado {
+  	position: relative;
+  	line-height: 122%;
+}
+.datos-del-pedido {
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.volver-a-mis-pedidos {
+  	height: 36px;
+  	width: 154px;
+  	border-radius: 6px;
+  	background-color: #16896c;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 12px;
+  	box-sizing: border-box;
+  	font-size: 13px;
+  	color: #f5f7f8;
+}
+.primary-button {
+  	position: relative;
+  	font-weight: 500;
+}
+.seguimiento-del-pedido {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px;
+  	gap: 20px;
+  	font-size: 14px;
+  	color: #686d6b;
+}
+.cabecera-de-seguimiento {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	color: #242827;
+}
+.ttulo-de-seccin {
+  	position: relative;
+  	font-weight: 600;
+}
+.entrega-estimada {
+  	position: relative;
+  	font-size: 12px;
+  	color: #686d6b;
+}
+.etapas-del-pedido {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	font-size: 13px;
+}
+.etapa-del-pedido {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 7px;
+  	color: #242827;
+}
+.conector {
+  	width: 205px;
+  	height: 2px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 17px;
+  	left: 126px;
+  	background-color: #16896c;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.indicador-de-etapa {
+  	width: 36px;
+  	height: 36px;
+  	border-radius: 20px;
+  	background-color: #16896c;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	z-index: 1;
+}
+.check-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.etapa {
+  	position: relative;
+  	font-weight: 600;
+  	z-index: 2;
+  	flex-shrink: 0;
+}
+.fecha-de-etapa {
+  	position: relative;
+  	font-size: 11px;
+  	color: #686d6b;
+  	z-index: 3;
+  	flex-shrink: 0;
+}
+.etapa-del-pedido2 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 7px;
+  	color: #16896c;
+}
+.conector2 {
+  	width: 205px;
+  	height: 2px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 17px;
+  	left: 126px;
+  	background-color: #e5e8e7;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.indicador-de-etapa2 {
+  	width: 36px;
+  	height: 36px;
+  	border-radius: 20px;
+  	background-color: #eff8f4;
+  	border: 2px solid #16896c;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	z-index: 1;
+}
+.etapa-del-pedido3 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 7px;
+}
+.indicador-de-etapa3 {
+  	width: 36px;
+  	height: 36px;
+  	border-radius: 20px;
+  	background-color: #f5f7f8;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	z-index: 1;
+}
+.etapa3 {
+  	position: relative;
+  	z-index: 2;
+  	flex-shrink: 0;
+}
+.fecha-de-etapa3 {
+  	position: relative;
+  	font-size: 11px;
+  	z-index: 3;
+  	flex-shrink: 0;
+}
+.etapa-del-pedido5 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 7px;
+}
+.indicador-de-etapa5 {
+  	width: 36px;
+  	height: 36px;
+  	border-radius: 20px;
+  	background-color: #f5f7f8;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.fecha-de-etapa5 {
+  	position: relative;
+  	font-size: 11px;
+}
+.informacin-del-estado {
+  	align-self: stretch;
+  	border-radius: 6px;
+  	background-color: #f5f7f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 10px 12px;
+  	gap: 8px;
+  	font-size: 12px;
+}
+.info-icon {
+  	height: 15px;
+  	width: 15px;
+  	position: relative;
+}
+.descripcin-del-estado {
+  	flex: 1;
+  	position: relative;
+  	line-height: 130%;
+}
+.productos-y-resumen {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16px;
+  	text-align: right;
+  	font-size: 13px;
+  	color: #242827;
+}
+.detalle-de-productos-y-entrega {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.productos-del-pedido {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.cabecera-de-productos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 16px;
+  	gap: 20px;
+  	text-align: left;
+  	font-size: 14px;
+}
+.encabezados-de-tabla {
+  	align-self: stretch;
+  	height: 34px;
+  	background-color: #f5f7f8;
+  	border-top: 1px solid #e5e8e7;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.producto {
+  	flex: 1;
+  	position: relative;
+  	text-align: left;
+}
+.cantidad {
+  	width: 60px;
+  	position: relative;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.precio-unitario {
+  	width: 100px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.subtotal {
+  	width: 110px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.producto-del-pedido {
+  	align-self: stretch;
+  	height: 80px;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+}
+.informacin-del-producto {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	text-align: left;
+}
+.imagen-de-producto {
+  	height: 48px;
+  	width: 48px;
+  	position: relative;
+  	border-radius: 6px;
+  	object-fit: cover;
+}
+.descripcin-del-producto {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.nombre-del-producto {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 500;
+}
+.acabado-y-medidas {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.referencia {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 10px;
+  	color: #8b908d;
+}
+.cantidad2 {
+  	width: 60px;
+  	position: relative;
+  	font-size: 12px;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.precio-unitario2 {
+  	width: 100px;
+  	position: relative;
+  	font-size: 12px;
+  	color: #686d6b;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.importe {
+  	width: 110px;
+  	position: relative;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.nota-de-precios {
+  	align-self: stretch;
+  	height: 34px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 16px;
+  	box-sizing: border-box;
+  	text-align: left;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.informacin-de-entrega {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 24px;
+  	text-align: left;
+  	font-size: 14px;
+}
+.direccin-de-entrega {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+}
+.destinatario {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	font-weight: 500;
+}
+.direccin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 140%;
+  	color: #686d6b;
+}
+.contacto-de-entrega {
+  	width: 230px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+  	font-size: 12px;
+  	color: #686d6b;
+}
+.nombre-de-contacto {
+  	position: relative;
+  	font-size: 13px;
+  	font-weight: 500;
+  	color: #242827;
+}
+.resumen-y-ayuda {
+  	width: 344px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	text-align: left;
+  	color: #686d6b;
+}
+.resumen-del-pedido {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px;
+  	gap: 16px;
+}
+.ttulo-de-seccin4 {
+  	position: relative;
+  	font-size: 14px;
+  	font-weight: 600;
+  	color: #242827;
+}
+.concepto-del-resumen {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.valor {
+  	position: relative;
+  	font-weight: 500;
+  	color: #242827;
+}
+.separador {
+  	align-self: stretch;
+  	height: 1px;
+  	position: relative;
+  	background-color: #e5e8e7;
+}
+.concepto-del-resumen4 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 16px;
+  	color: #242827;
+}
+.valor4 {
+  	position: relative;
+  	font-size: 20px;
+  	font-weight: 600;
+  	color: #16896c;
+}
+.moneda {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 11px;
+  	text-align: right;
+}
+.informacin-de-pago {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7px;
+  	font-size: 12px;
+}
+.estado-del-pago {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	color: #16896c;
+}
+.circle-check-icon {
+  	height: 14px;
+  	width: 14px;
+  	position: relative;
+}
+.ayuda-con-el-pedido {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 8px;
+  	font-size: 14px;
+  	color: #242827;
+}
+.contactar-a-soporte {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 6px;
+  	font-size: 13px;
+  	color: #16896c;
+}
+

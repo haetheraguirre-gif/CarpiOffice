@@ -1,0 +1,644 @@
+.detalle-de-orden-de-compra-o {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f8f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 822px;
+  	text-align: left;
+  	font-size: 15.09px;
+  	color: #fff7e5;
+  	font-family: 'Roboto Condensed';
+}
+.men-lateral {
+  	align-self: stretch;
+  	width: 200px;
+  	border-radius: 8px 0px 0px 4px;
+  	background-color: #583b16;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 15px 9px 0px 12px;
+  	box-sizing: border-box;
+  	gap: 38px;
+}
+.marca-icon {
+  	align-self: stretch;
+  	height: 57px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.navegacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7.5px;
+}
+.opcin-de-men {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 6.5px;
+  	background-color: #583b16;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 2px 0px 10px;
+  	box-sizing: border-box;
+  	gap: 12px;
+}
+.icono-de-men {
+  	height: 17.2px;
+  	width: 17.2px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+  	line-height: 125%;
+}
+.opcin-de-men4 {
+  	align-self: stretch;
+  	height: 40px;
+  	border-radius: 6.5px;
+  	background-color: #765020;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 2px 0px 10px;
+  	box-sizing: border-box;
+  	gap: 12px;
+}
+.espacio-de-trabajo {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 16.88px;
+  	color: #8b908d;
+}
+.barra-de-herramientas {
+  	align-self: stretch;
+  	height: 70px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 84px 0px 0px;
+  	gap: 16px;
+}
+.bsqueda-y-cuenta-de-compras {
+  	height: 69px;
+  	flex: 1;
+  	background-color: #fff;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 0px 0px 30px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.bsqueda {
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 11px 17px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.etiqueta9 {
+  	position: relative;
+  	line-height: 122%;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta10 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.opciones-de-cuenta {
+  	height: 5px;
+  	width: 9px;
+  	position: relative;
+}
+.detalle-de-la-orden {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 18px 12px 20px 22px;
+  	gap: 16px;
+  	font-size: 15px;
+  	color: #707470;
+}
+.encabezado-de-la-orden {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 14px;
+}
+.ruta-de-navegacin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.origen {
+  	position: relative;
+}
+.orden-actual {
+  	position: relative;
+  	color: #111511;
+}
+.ttulo-y-acciones {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 28.13px;
+  	color: #111511;
+}
+.identificacin {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+}
+.nmero-y-estado {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 14px;
+}
+.estado {
+  	border-radius: 24px;
+  	background-color: #f7f0e3;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 4px 13px;
+  	font-size: 16px;
+  	color: #705323;
+}
+.descripcin {
+  	position: relative;
+  	font-size: 16px;
+  	color: #707470;
+}
+.acciones-de-la-orden {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 10px;
+  	font-size: 16px;
+}
+.descargar-pdf {
+  	height: 40px;
+  	width: 132px;
+  	border-radius: 7px;
+  	background-color: #fff;
+  	border: 1px solid #e6e6e6;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 14px;
+}
+.registrar-recepcin {
+  	height: 40px;
+  	width: 169px;
+  	border-radius: 7px;
+  	background-color: #705323;
+  	border: 1px solid #705323;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 14px;
+  	color: #fff7e5;
+}
+.informacin-general {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 20px;
+  	color: #111511;
+}
+.datos-de-la-orden {
+  	align-self: stretch;
+  	flex: 1;
+  	border-radius: 14px;
+  	background-color: #fff;
+  	border: 1.2px solid #e6e6e6;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 22px;
+  	gap: 18px;
+}
+.campos-de-la-orden {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 24px;
+  	font-size: 14px;
+  	color: #707470;
+}
+.dato-de-la-orden {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7px;
+}
+.etiqueta13 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 125%;
+}
+.valor {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 125%;
+  	color: #111511;
+}
+.importe-de-la-orden {
+  	align-self: stretch;
+  	width: 310px;
+  	border-radius: 14px;
+  	background-color: #fff;
+  	border: 1.2px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 22px;
+  	gap: 6px;
+  	font-size: 16px;
+  	color: #707470;
+}
+.total {
+  	position: relative;
+  	font-size: 30px;
+  	color: #111511;
+}
+.pendiente-de-recepcin {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 7px;
+  	font-size: 14px;
+  	color: #705323;
+}
+.clock-3-icon {
+  	height: 15px;
+  	width: 15px;
+  	position: relative;
+}
+.materiales-de-la-orden {
+  	align-self: stretch;
+  	border-radius: 14px;
+  	background-color: #fff;
+  	border: 1.2px solid #e6e6e6;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 17px 24px 16px;
+  	font-size: 16px;
+  	color: #111511;
+}
+.encabezado-de-materiales {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 0px 13px;
+  	gap: 20px;
+  	font-size: 20px;
+}
+.conteo {
+  	position: relative;
+  	font-size: 14px;
+  	color: #707470;
+}
+.columnas-de-materiales {
+  	align-self: stretch;
+  	height: 37px;
+  	border-top: 1px solid #efefef;
+  	border-bottom: 1px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	color: #707470;
+}
+.dato-de-material {
+  	width: 125px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.columna-de-material {
+  	flex: 1;
+  	position: relative;
+  	font-size: 15px;
+}
+.dato-de-material2 {
+  	width: 95px;
+  	position: relative;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-material3 {
+  	width: 105px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-material4 {
+  	width: 145px;
+  	position: relative;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-material5 {
+  	width: 110px;
+  	position: relative;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.dato-de-material6 {
+  	width: 165px;
+  	position: relative;
+  	text-align: right;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.lnea-de-material {
+  	align-self: stretch;
+  	height: 56px;
+  	border-bottom: 1px solid #efefef;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+}
+.dato-de-material7 {
+  	width: 125px;
+  	position: relative;
+  	color: #707470;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.material {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+  	font-size: 17px;
+}
+.nombre {
+  	align-self: stretch;
+  	position: relative;
+}
+.descripcin2 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	color: #707470;
+}
+.dato-de-material11 {
+  	width: 110px;
+  	position: relative;
+  	color: #707470;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.total-y-aclaracin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 15px 0px 0px;
+  	gap: 20px;
+  	font-size: 14px;
+  	color: #707470;
+}
+.total-de-compra {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 30px;
+  	font-size: 18px;
+  	color: #111511;
+}
+.importe {
+  	position: relative;
+  	font-size: 23px;
+}
+.entrega-y-seguimiento {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 14px;
+}
+.entrega-de-materiales {
+  	align-self: stretch;
+  	flex: 1;
+  	border-radius: 14px;
+  	background-color: #fff;
+  	border: 1.2px solid #e6e6e6;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 22px;
+  	gap: 13px;
+}
+.encabezado-de-entrega {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 9px;
+  	font-size: 20px;
+  	color: #111511;
+}
+.truck-icon {
+  	height: 20px;
+  	width: 20px;
+  	position: relative;
+}
+.programacin-de-entrega {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 25px;
+}
+.fecha-de-entrega {
+  	width: 180px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.fecha {
+  	position: relative;
+  	font-size: 17px;
+  	color: #111511;
+}
+.destino {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.seguimiento-de-recepcin {
+  	align-self: stretch;
+  	width: 465px;
+  	border-radius: 14px;
+  	background-color: #fff;
+  	border: 1.2px solid #e6e6e6;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 22px;
+  	gap: 12px;
+  	font-size: 20px;
+  	color: #111511;
+}
+.encabezado-de-seguimiento {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.estado-de-espera {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 2px 0px 0px;
+  	gap: 12px;
+  	font-size: 17px;
+}
+.indicador-de-espera {
+  	height: 38px;
+  	width: 38px;
+  	border-radius: 9px;
+  	background-color: #f7f0e3;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.package-icon {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.prximo-paso {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	color: #707470;
+}
+.acciones-adicionales {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	padding: 3px 0px 0px;
+  	gap: 20px;
+  	font-size: 15px;
+  	color: #705323;
+}
+.contacto-con-proveedor {
+  	position: relative;
+  	text-decoration: underline;
+}
+.cancelacin-de-orden {
+  	position: relative;
+  	color: #707470;
+}
+

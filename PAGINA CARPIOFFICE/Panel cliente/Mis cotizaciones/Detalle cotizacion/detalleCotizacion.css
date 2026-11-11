@@ -1,0 +1,628 @@
+.carpioffice-detalle-de-cotiz {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f5f7f8;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 850px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.barra-cliente {
+  	height: 884px;
+  	width: 254px;
+  	position: relative;
+}
+.vendedor-barra-de-navegacin {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #074749;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.cotizaciones {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+  	cursor: pointer;
+}
+.shopping-bag-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+  	object-fit: cover;
+}
+.icono-de-navegacin {
+  	height: 18px;
+  	width: 18px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.rea-de-cliente {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 13px;
+  	color: #8b908d;
+  	font-family: 'Roboto Condensed';
+}
+.encabezado-cliente {
+  	align-self: stretch;
+  	height: 64px;
+  	background-color: #fff;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 24px;
+  	gap: 16px;
+}
+.bsqueda {
+  	height: 38px;
+  	flex: 1;
+  	border-radius: 25px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	box-sizing: border-box;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.detalle-de-cotizacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 24px;
+  	gap: 16px;
+  	font-size: 12px;
+  	color: #242827;
+}
+.resumen-de-cotizacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.ruta-de-navegacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #16896c;
+}
+.arrow-left-icon {
+  	height: 14px;
+  	width: 14px;
+  	position: relative;
+}
+.volver-a-cotizaciones {
+  	position: relative;
+  	line-height: 122%;
+}
+.chevron-right-icon {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+}
+.cotizacin-actual {
+  	position: relative;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.ttulo-y-descarga {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+  	font-size: 22px;
+}
+.presentacin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+}
+.identificacin-y-estado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+}
+.ttulo {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta-de-estado {
+  	border-radius: 20px;
+  	background-color: #fef9c3;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 3px 8px;
+  	font-size: 11px;
+  	color: #854d0e;
+}
+.empresa {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.accin-de-cotizacin {
+  	height: 36px;
+  	width: 132px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9px 12px;
+  	text-align: center;
+  	font-size: 13px;
+}
+.primary-button {
+  	flex: 1;
+  	position: relative;
+  	line-height: 122%;
+}
+.informacin-general {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 16px;
+  	font-size: 16px;
+}
+.proyecto-y-sede {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.nombre-de-proyecto {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.productos-y-sede {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.tipo-de-propuesta {
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.fechas-y-destinatario {
+  	align-self: stretch;
+  	border-top: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 14px 0px 0px;
+  	gap: 24px;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.dato-de-propuesta {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 6px;
+}
+.etiqueta11 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+}
+.valor {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 13px;
+  	line-height: 122%;
+  	font-weight: 500;
+  	color: #242827;
+}
+.propuesta-y-decisin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 16px;
+}
+.desglose-y-condiciones {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.desglose-de-la-propuesta {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 12px;
+}
+.encabezado-de-productos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.tabla-de-productos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: right;
+  	font-size: 13px;
+}
+.encabezados {
+  	align-self: stretch;
+  	height: 32px;
+  	border-bottom: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+  	font-size: 11px;
+  	color: #686d6b;
+}
+.columna {
+  	flex: 1;
+  	position: relative;
+  	line-height: 122%;
+  	text-align: left;
+}
+.columna4 {
+  	width: 94px;
+  	position: relative;
+  	line-height: 122%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.concepto-de-propuesta {
+  	align-self: stretch;
+  	border-bottom: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 18px 0px;
+  	gap: 16px;
+}
+.producto-o-servicio {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+  	text-align: left;
+}
+.concepto {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.especificaciones {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 122%;
+  	color: #686d6b;
+}
+.cantidad {
+  	width: 42px;
+  	position: relative;
+  	line-height: 122%;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.precio-unitario {
+  	width: 90px;
+  	position: relative;
+  	line-height: 122%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.importe {
+  	width: 94px;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.condiciones-comerciales {
+  	align-self: stretch;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px;
+  	gap: 16px;
+}
+.entrega-y-pago {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 24px;
+  	font-size: 13px;
+}
+.condicin-comercial {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 10px;
+}
+.contenido-de-condicin {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.resumen-y-acciones {
+  	width: 352px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 13px;
+}
+.ttulo4 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.desglose-de-impuestos {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 12px;
+  	color: #686d6b;
+}
+.concepto-de-resumen {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.importe4 {
+  	position: relative;
+  	line-height: 122%;
+  	color: #242827;
+}
+.total-de-cotizacin {
+  	align-self: stretch;
+  	border-top: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 14px 0px 0px;
+  	gap: 6px;
+}
+.total {
+  	position: relative;
+  	font-size: 26px;
+  	line-height: 122%;
+}
+.orientacin-de-estado {
+  	align-self: stretch;
+  	border-radius: 6px;
+  	background-color: #edf7f3;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 12px;
+  	gap: 8px;
+  	font-size: 12px;
+  	color: #02542d;
+}
+.acciones-de-decisin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+  	text-align: center;
+  	color: #fff;
+}
+.accin-de-cotizacin2 {
+  	align-self: stretch;
+  	height: 36px;
+  	border-radius: 6px;
+  	background-color: #16896c;
+  	border: 1px solid #16896c;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9px 12px;
+}
+.primary-button2 {
+  	flex: 1;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.accin-de-cotizacin3 {
+  	align-self: stretch;
+  	height: 36px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9px 12px;
+  	color: #242827;
+}
+.accin-de-rechazo {
+  	align-self: stretch;
+  	height: 28px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: left;
+  	font-size: 12px;
+  	color: #686d6b;
+}
+.ayuda-comercial {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #686d6b;
+}
+.contacto {
+  	position: relative;
+  	line-height: 122%;
+  	color: #16896c;
+}
+

@@ -1,0 +1,770 @@
+.panel-de-vendedor {
+  	width: 100%;
+  	height: 968px;
+  	position: relative;
+  	background-color: #f8f9fb;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #e5e9f2;
+  	font-family: Poppins;
+}
+.rea-de-vendedor {
+  	align-self: stretch;
+  	height: 968px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: flex-start;
+}
+.vendedor-barra-de-navegacin {
+  	height: 1199px;
+  	width: 254px;
+  	background-color: #112c67;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 59px 18px 20px;
+  	box-sizing: border-box;
+}
+.vendedor-barra-de-navegacin-child {
+  	align-self: stretch;
+  	height: 72px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.inicio {
+  	width: 216px;
+  	height: 44px;
+  	border-radius: 5px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+  	gap: 14px;
+}
+.house-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+}
+.espacio-de-trabajo {
+  	align-self: stretch;
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+  	font-size: 15px;
+  	color: #92969f;
+  	font-family: 'Roboto Condensed';
+}
+.vendedor-barra-de-cuenta {
+  	width: 1186px;
+  	height: 72px;
+  	background-color: rgba(148, 176, 236, 0.15);
+  	border-bottom: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 8px 0px 324px;
+  	gap: 18px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 312px;
+  	border-radius: 24px;
+  	border: 1px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 12px;
+  	gap: 8px;
+}
+.search-icon {
+  	height: 17px;
+  	width: 17px;
+  	position: relative;
+}
+.etiqueta9 {
+  	position: relative;
+  	line-height: 125%;
+}
+.bell-icon {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.cuenta-del-vendedor {
+  	width: 286px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 17.9px;
+  	box-sizing: border-box;
+  	gap: 8.5px;
+  	font-size: 15.23px;
+  	color: #252932;
+}
+.avatar-icon {
+  	height: 32.2px;
+  	width: 32.2px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.datos-de-cuenta {
+  	width: 175px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta10 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 600;
+}
+.etiqueta11 {
+  	position: relative;
+  	font-size: 11.85px;
+  	line-height: 125%;
+}
+.chevron-down-icon {
+  	height: 13.5px;
+  	width: 13.5px;
+  	position: relative;
+}
+.resumen-de-actividad {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px 6px 18px 30px;
+  	gap: 18px;
+  	font-size: 16.11px;
+  	color: #252932;
+}
+.introduccin {
+  	width: 1031px;
+  	height: 55.9px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 25.26px;
+}
+.ttulo {
+  	position: relative;
+  	line-height: 30.67px;
+  	font-weight: 600;
+}
+.descripcin {
+  	position: relative;
+  	font-size: 15.33px;
+  	color: #626873;
+}
+.indicadores-de-ventas {
+  	width: 1031px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 12.5px;
+  	font-size: 15.21px;
+}
+.indicador {
+  	height: 112.8px;
+  	flex: 1;
+  	border-radius: 8.95px;
+  	background-color: #fff;
+  	border: 0.9px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16.1px;
+  	gap: 8.9px;
+}
+.etiqueta12 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.valor-del-indicador {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 20.58px;
+}
+.resultado {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 7.2px;
+}
+.etiqueta14 {
+  	position: relative;
+  	font-size: 13.42px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.smbolo-del-indicador {
+  	height: 37.6px;
+  	width: 35.8px;
+  	box-shadow: 0px 2.6848957538604736px 4.47px rgba(49, 95, 150, 0.19);
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.tendencia-de-ventas {
+  	height: 25.1px;
+  	width: 34px;
+  	position: relative;
+}
+.stamp-icon {
+  	height: 27.7px;
+  	width: 27.7px;
+  	position: relative;
+}
+.ventas-y-agenda {
+  	width: 1031px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16.1px;
+}
+.ventas-de-los-ltimos-meses {
+  	height: 241.6px;
+  	width: 460px;
+  	border-radius: 8.95px;
+  	background-color: #fff;
+  	border: 0.9px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 14.3px 14.3px 12.5px;
+  	gap: 8.9px;
+}
+.encabezado-de-grfico {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.perodo {
+  	border-radius: 4.47px;
+  	border: 0.9px solid #e4e7ec;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 4.5px 7.2px;
+  	gap: 5.4px;
+  	font-size: 12.53px;
+}
+.chevron-down-icon2 {
+  	height: 10.7px;
+  	width: 10.7px;
+  	position: relative;
+}
+.grfico-de-ventas {
+  	align-self: stretch;
+  	height: 164.7px;
+  	position: relative;
+  	font-size: 13.42px;
+}
+.mes {
+  	position: absolute;
+  	top: 150.35px;
+  	left: 409.89px;
+  	flex-shrink: 0;
+}
+.mes2 {
+  	position: absolute;
+  	top: 150.35px;
+  	left: 336.5px;
+  	flex-shrink: 0;
+}
+.mes3 {
+  	position: absolute;
+  	top: 150.35px;
+  	left: 263.12px;
+  	flex-shrink: 0;
+}
+.mes4 {
+  	position: absolute;
+  	top: 150.35px;
+  	left: 189.73px;
+  	flex-shrink: 0;
+}
+.mes5 {
+  	position: absolute;
+  	top: 150.35px;
+  	left: 116.34px;
+  	flex-shrink: 0;
+}
+.mes6 {
+  	position: absolute;
+  	top: 150.35px;
+  	left: 42.96px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas {
+  	position: absolute;
+  	top: 25.06px;
+  	left: 427.79px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas2 {
+  	position: absolute;
+  	top: 42.96px;
+  	left: 392.81px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas3 {
+  	position: absolute;
+  	top: 42.96px;
+  	left: 357.82px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas4 {
+  	position: absolute;
+  	top: 61.75px;
+  	left: 322.84px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas5 {
+  	position: absolute;
+  	top: 59.96px;
+  	left: 287.85px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas6 {
+  	position: absolute;
+  	top: 81.44px;
+  	left: 252.87px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas7 {
+  	position: absolute;
+  	top: 75.18px;
+  	left: 217.88px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas8 {
+  	position: absolute;
+  	top: 99.34px;
+  	left: 182.9px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas9 {
+  	position: absolute;
+  	top: 93.97px;
+  	left: 147.91px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas10 {
+  	position: absolute;
+  	top: 93.08px;
+  	left: 112.93px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas11 {
+  	position: absolute;
+  	top: 109.19px;
+  	left: 77.94px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.dato-de-ventas12 {
+  	position: absolute;
+  	top: 128.88px;
+  	left: 42.96px;
+  	border-radius: 50%;
+  	background-color: #315f96;
+  	width: 4.5px;
+  	height: 4.5px;
+  	flex-shrink: 0;
+}
+.lnea-de-ventas {
+  	position: absolute;
+  	top: 22.37px;
+  	left: 44.75px;
+  	width: 384.8px;
+  	height: 108.3px;
+  	flex-shrink: 0;
+}
+.rea-de-ventas {
+  	position: absolute;
+  	top: 22.37px;
+  	left: 44.75px;
+  	width: 384.8px;
+  	height: 116.3px;
+  	flex-shrink: 0;
+}
+.escala {
+  	position: absolute;
+  	top: 136.93px;
+  	left: 0px;
+  	font-size: 12.53px;
+  	color: #626873;
+  	flex-shrink: 0;
+}
+.escala2 {
+  	position: absolute;
+  	top: 92.18px;
+  	left: 0px;
+  	font-size: 12.53px;
+  	color: #626873;
+  	flex-shrink: 0;
+}
+.escala3 {
+  	position: absolute;
+  	top: 47.43px;
+  	left: 0px;
+  	font-size: 12.53px;
+  	color: #626873;
+  	flex-shrink: 0;
+}
+.escala4 {
+  	position: absolute;
+  	top: 2.69px;
+  	left: 0px;
+  	font-size: 12.53px;
+  	color: #626873;
+  	flex-shrink: 0;
+}
+.gua-horizontal {
+  	position: absolute;
+  	top: 144.98px;
+  	left: 39.38px;
+  	background-color: #edf0f4;
+  	width: 392px;
+  	height: 0.9px;
+  	flex-shrink: 0;
+}
+.gua-horizontal2 {
+  	position: absolute;
+  	top: 100.24px;
+  	left: 39.38px;
+  	background-color: #edf0f4;
+  	width: 392px;
+  	height: 0.9px;
+  	flex-shrink: 0;
+}
+.gua-horizontal3 {
+  	position: absolute;
+  	top: 55.49px;
+  	left: 39.38px;
+  	background-color: #edf0f4;
+  	width: 392px;
+  	height: 0.9px;
+  	flex-shrink: 0;
+}
+.gua-horizontal4 {
+  	position: absolute;
+  	top: 10.74px;
+  	left: 39.38px;
+  	background-color: #edf0f4;
+  	width: 392px;
+  	height: 0.9px;
+  	flex-shrink: 0;
+}
+.prximas-visitas {
+  	height: 241.6px;
+  	flex: 1;
+  	border-radius: 8.95px;
+  	background-color: #fff;
+  	border: 0.9px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16.1px 16.1px 8.9px;
+  	gap: 10.7px;
+  	font-size: 13.42px;
+}
+.etiqueta26 {
+  	position: relative;
+  	font-size: 16.11px;
+  	line-height: 125%;
+  	font-weight: 500;
+}
+.agenda {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.visita-programada {
+  	align-self: stretch;
+  	height: 51.9px;
+  	border-bottom: 0.9px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 10.7px;
+}
+.calendario {
+  	height: 26.8px;
+  	width: 26.8px;
+  	border-radius: 4.47px;
+  	background-color: #edf2f8;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.calendar-days-icon2 {
+  	height: 16.1px;
+  	width: 16.1px;
+  	position: relative;
+}
+.cliente2 {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 0.9px;
+}
+.etiqueta28 {
+  	position: relative;
+  	font-size: 9.84px;
+  	line-height: 125%;
+  	color: #626873;
+}
+.etiqueta29 {
+  	position: relative;
+  	font-size: 11.63px;
+  	line-height: 125%;
+}
+.acceso-a-agenda {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: center;
+  	color: #193c76;
+}
+.cotizaciones-recientes {
+  	height: 166.5px;
+  	width: 510.1px;
+  	border-radius: 8.95px;
+  	background-color: #fff;
+  	border: 0.9px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 14.3px 16.1px 10.7px;
+  	gap: 10.7px;
+}
+.etiqueta37 {
+  	position: relative;
+  	line-height: 125%;
+  	font-weight: 500;
+  	flex-shrink: 0;
+}
+.tabla-de-cotizaciones {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+  	font-size: 12.53px;
+}
+.cotizacin {
+  	align-self: stretch;
+  	height: 38.5px;
+  	border-bottom: 0.9px solid #eef0f3;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 8.9px;
+}
+.etiqueta38 {
+  	width: 77px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta39 {
+  	width: 139.6px;
+  	position: relative;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.etiqueta41 {
+  	width: 71.6px;
+  	position: relative;
+  	font-size: 11.63px;
+  	line-height: 125%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.estado {
+  	height: 23.3px;
+  	width: 69.8px;
+  	border-radius: 21.48px;
+  	background-color: #e0f3e6;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 10.74px;
+  	color: #4c9463;
+}
+.estado2 {
+  	height: 23.3px;
+  	width: 69.8px;
+  	border-radius: 21.48px;
+  	background-color: #fff1d4;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 10.74px;
+  	color: #bb9145;
+}
+.acciones-rpidas {
+  	height: 166.5px;
+  	flex: 1;
+  	border-radius: 8.95px;
+  	background-color: #fff;
+  	border: 0.9px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 14.3px 16.1px;
+  	gap: 12.5px;
+  	font-size: 12.53px;
+}
+.crear-registros {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 10.7px;
+}
+.accin-rpida {
+  	height: 46.5px;
+  	flex: 1;
+  	border-radius: 7.16px;
+  	background-color: #fff;
+  	border: 0.9px solid #e4e7ec;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8.1px;
+  	gap: 6.3px;
+}
+.botn-de-accin {
+  	height: 35.8px;
+  	width: 191.5px;
+  	background-color: #fff;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 14.3px 8.9px;
+  	box-sizing: border-box;
+}
+.primary-button {
+  	position: relative;
+  	flex-shrink: 0;
+}
+

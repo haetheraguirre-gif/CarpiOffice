@@ -1,0 +1,356 @@
+.carpioffice-invitacin-envia {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f9f9;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	min-height: 802px;
+  	text-align: left;
+  	font-size: 17px;
+  	color: #edf5ee;
+  	font-family: 'Roboto Condensed';
+}
+.men-lateral {
+  	align-self: stretch;
+  	width: 250px;
+  	background-color: #063d30;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 22px 20px 24px;
+  	box-sizing: border-box;
+  	min-height: 802px;
+}
+.carpioffice-icon {
+  	width: 175px;
+  	height: 51px;
+  	object-fit: cover;
+}
+.navegacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 1px;
+}
+.opcin-de-navegacin {
+  	align-self: stretch;
+  	height: 47px;
+  	border-radius: 5px;
+  	background-color: #063d30;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px 0px 9px;
+  	box-sizing: border-box;
+  	gap: 13px;
+}
+.icono-de-navegacin {
+  	height: 21px;
+  	width: 21px;
+  	position: relative;
+}
+.etiqueta {
+  	position: relative;
+  	line-height: 122%;
+}
+.opcin-de-navegacin2 {
+  	align-self: stretch;
+  	height: 47px;
+  	border-radius: 5px;
+  	background-color: #07563c;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 8px 0px 9px;
+  	box-sizing: border-box;
+  	gap: 13px;
+}
+.contenido-principal {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 14px;
+  	color: #8b908d;
+}
+.barra-de-herramientas {
+  	align-self: stretch;
+  	height: 72px;
+  	background-color: #fff;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 0px 0px 30px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.bsqueda {
+  	height: 38px;
+  	width: 234px;
+  	border-radius: 25px;
+  	border: 1px solid #e5e8e7;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 14px;
+  	gap: 9px;
+}
+.search-icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.bell-icon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.cuenta-de-administrador {
+  	width: 180px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 12px;
+  	font-size: 16px;
+  	color: #242827;
+}
+.foto-de-perfil {
+  	height: 36px;
+  	width: 34px;
+  	position: relative;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+.informacin-de-cuenta {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.etiqueta15 {
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 600;
+}
+.etiqueta16 {
+  	position: relative;
+  	font-size: 12px;
+  	line-height: 122%;
+}
+.confirmacin-de-invitacin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 20px 20px 24px 30px;
+  	gap: 18px;
+  	color: #686d6b;
+}
+.encabezado-de-alta {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 12px;
+}
+.ruta-de-navegacin {
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	gap: 7px;
+}
+.enlace-de-regreso {
+  	position: relative;
+  	color: #16735b;
+}
+.separador {
+  	position: relative;
+}
+.ttulo-y-descripcin {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 3px;
+  	font-size: 24px;
+  	color: #242827;
+}
+.ttulo {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 122%;
+  	font-weight: 500;
+}
+.descripcin {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 17px;
+  	line-height: 122%;
+}
+.invitacin-enviada {
+  	align-self: stretch;
+  	border-radius: 9px;
+  	background-color: #fff;
+  	border: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: center;
+  	font-size: 26px;
+  	color: #242827;
+}
+.confirmacin-y-estado {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 40px 40px 32px;
+  	gap: 24px;
+}
+.mensaje-de-confirmacin {
+  	width: 620px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 16px;
+}
+.envo-completado {
+  	width: 64px;
+  	height: 64px;
+  	border-radius: 16777200px;
+  	background-color: #edf5ee;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.circle-check-icon {
+  	height: 32px;
+  	width: 32px;
+  	position: relative;
+}
+.resultado-del-envo {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.descripcin-del-envo {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 140%;
+  	color: #686d6b;
+}
+.estado-de-la-cuenta {
+  	width: 620px;
+  	border-radius: 5px;
+  	background-color: #edf5ee;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 18px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	text-align: left;
+  	font-size: 16px;
+}
+.clock-3-icon {
+  	height: 22px;
+  	width: 22px;
+  	position: relative;
+}
+.detalles-del-estado {
+  	flex: 1;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 5px;
+}
+.estado {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 500;
+}
+.condicin-de-acceso {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 15px;
+  	line-height: 140%;
+  	color: #686d6b;
+}
+.seguimiento {
+  	width: 620px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 140%;
+  	color: #686d6b;
+  	display: inline-block;
+}
+.acciones-de-confirmacin {
+  	align-self: stretch;
+  	border-top: 1px solid #e5e8e7;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 18px 24px;
+  	gap: 12px;
+  	font-size: 15px;
+}
+.invitar-a-otro-usuario {
+  	height: 40px;
+  	width: 168px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #c9d1cd;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 16px;
+}
+.primary-button {
+  	position: relative;
+  	font-weight: 500;
+}
+.volver-a-gestin-de-usuarios {
+  	height: 40px;
+  	width: 212px;
+  	border-radius: 5px;
+  	background-color: #16735b;
+  	border: 1px solid #16735b;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 16px;
+  	cursor: pointer;
+  	color: #fff;
+}
+
